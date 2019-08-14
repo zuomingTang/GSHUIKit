@@ -1,0 +1,218 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AlicloudPush (1.9.8):
+    - AlicloudUT
+    - AlicloudUtils
+  - AlicloudUT (5.2.0.5):
+    - AlicloudUTDID
+  - AlicloudUTDID (1.1.0.19)
+  - AlicloudUtils (1.3.6):
+    - AlicloudUTDID
+  - Bugly (2.5.0)
+  - CocoaAsyncSocket (7.5.0):
+    - CocoaAsyncSocket/GCD (= 7.5.0)
+  - CocoaAsyncSocket/GCD (7.5.0)
+  - EZOpenSDK (4.8.6)
+  - FLAnimatedImage (1.0.12)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - FMDBHelpers (0.0.7):
+    - FMDB (~> 2.3)
+  - GSHOpenSDK (0.2.32):
+    - GSHOpenSDK/GSHOpenSDKSoundCode (= 0.2.32)
+  - GSHOpenSDK/GSHOpenSDKSoundCode (0.2.32):
+    - CocoaAsyncSocket (= 7.5.0)
+    - EZOpenSDK (= 4.8.6)
+    - FMDB (= 2.6.2)
+    - FMDBHelpers (= 0.0.7)
+    - OpenSSL-Universal (= 1.0.2.13)
+    - Protobuf (= 3.6.0)
+    - SocketRocket (= 0.5.1)
+    - YYModel (= 1.0.4)
+  - IQKeyboardManager (5.0.8)
+  - JKWKWebViewHandler (0.2.3)
+  - LGAlertView (2.4.0)
+  - LYWebViewController (0.2.0):
+    - MJRefresh
+  - MarqueeLabel (3.0.1):
+    - MarqueeLabel/ObjC (= 3.0.1)
+  - MarqueeLabel/ObjC (3.0.1)
+  - Masonry (1.1.0)
+  - MJNIndexView (0.0.1)
+  - MJRefresh (3.2.0)
+  - ObjcAssociatedObjectHelpers (2.0.1):
+    - ObjcAssociatedObjectHelpers/Core (= 2.0.1)
+    - "ObjcAssociatedObjectHelpers/NSObject+Dictionary (= 2.0.1)"
+  - ObjcAssociatedObjectHelpers/Core (2.0.1)
+  - "ObjcAssociatedObjectHelpers/NSObject+Dictionary (2.0.1)":
+    - ObjcAssociatedObjectHelpers/Core
+  - OpenShare (0.0.1)
+  - OpenSSL-Universal (1.0.2.13)
+  - Protobuf (3.6.0)
+  - RealReachability (1.3.0):
+    - RealReachability/Connection (= 1.3.0)
+    - RealReachability/Ping (= 1.3.0)
+  - RealReachability/Connection (1.3.0)
+  - RealReachability/Ping (1.3.0)
+  - SDWebImage/Core (4.2.2)
+  - SDWebImage/GIF (4.2.2):
+    - FLAnimatedImage (~> 1.0)
+    - SDWebImage/Core
+  - SocketRocket (0.5.1)
+  - TZMExternalPackagLib (0.1.4.1):
+    - TZMExternalPackagLib/iflyMSC (= 0.1.4.1)
+    - TZMExternalPackagLib/KooKongSDK (= 0.1.4.1)
+    - TZMExternalPackagLib/TencentOpenApi (= 0.1.4.1)
+  - TZMExternalPackagLib/iflyMSC (0.1.4.1)
+  - TZMExternalPackagLib/KooKongSDK (0.1.4.1)
+  - TZMExternalPackagLib/TencentOpenApi (0.1.4.1)
+  - TZMOpenLib (0.4.5):
+    - TZMOpenLib/Category (= 0.4.5)
+    - TZMOpenLib/Manager (= 0.4.5)
+    - TZMOpenLib/RefreshAndLoadMore (= 0.4.5)
+    - TZMOpenLib/StatusView (= 0.4.5)
+    - TZMOpenLib/View (= 0.4.5)
+    - TZMOpenLib/ViewController (= 0.4.5)
+  - TZMOpenLib/Category (0.4.5):
+    - ObjcAssociatedObjectHelpers (= 2.0.1)
+    - YYCategories (= 1.0.3)
+  - TZMOpenLib/Manager (0.4.5)
+  - TZMOpenLib/RefreshAndLoadMore (0.4.5):
+    - ObjcAssociatedObjectHelpers (= 2.0.1)
+    - YYCategories (= 1.0.3)
+  - TZMOpenLib/StatusView (0.4.5):
+    - Masonry (= 1.1.0)
+  - TZMOpenLib/View (0.4.5):
+    - XXNibBridge (= 2.3.1)
+  - TZMOpenLib/ViewController (0.4.5):
+    - Masonry (= 1.1.0)
+  - XXNibBridge (2.3.1)
+  - YYCategories (1.0.3):
+    - YYCategories/no-arc (= 1.0.3)
+  - YYCategories/no-arc (1.0.3)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - AFNetworking (= 3.1.0)
+  - AlicloudPush (= 1.9.8)
+  - Bugly (= 2.5.0)
+  - GSHOpenSDK (from `https://github.com/zuomingTang/GSHOpenSDK.git`, tag `0.2.32`)
+  - IQKeyboardManager (= 5.0.8)
+  - JKWKWebViewHandler (= 0.2.3)
+  - LGAlertView
+  - LYWebViewController (= 0.2.0)
+  - MarqueeLabel (= 3.0.1)
+  - MJNIndexView (= 0.0.1)
+  - OpenShare (= 0.0.1)
+  - RealReachability (~> 1.3.0)
+  - SDWebImage/GIF (= 4.2.2)
+  - TZMExternalPackagLib (from `https://github.com/zuomingTang/TZMExternalPackagLib.git`, tag `0.1.4.1`)
+  - TZMOpenLib (from `https://github.com/zuomingTang/TZMOpenLib.git`, tag `0.4.7`)
+
+SPEC REPOS:
+  https://github.com/aliyun/aliyun-specs.git:
+    - AlicloudPush
+    - AlicloudUT
+    - AlicloudUTDID
+    - AlicloudUtils
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Bugly
+    - CocoaAsyncSocket
+    - EZOpenSDK
+    - FLAnimatedImage
+    - FMDB
+    - FMDBHelpers
+    - IQKeyboardManager
+    - JKWKWebViewHandler
+    - LGAlertView
+    - LYWebViewController
+    - MarqueeLabel
+    - Masonry
+    - MJNIndexView
+    - MJRefresh
+    - ObjcAssociatedObjectHelpers
+    - OpenShare
+    - OpenSSL-Universal
+    - Protobuf
+    - RealReachability
+    - SDWebImage
+    - SocketRocket
+    - XXNibBridge
+    - YYCategories
+    - YYModel
+
+EXTERNAL SOURCES:
+  GSHOpenSDK:
+    :git: https://github.com/zuomingTang/GSHOpenSDK.git
+    :tag: 0.2.32
+  TZMExternalPackagLib:
+    :git: https://github.com/zuomingTang/TZMExternalPackagLib.git
+    :tag: 0.1.4.1
+  TZMOpenLib:
+    :git: https://github.com/zuomingTang/TZMOpenLib.git
+    :tag: 0.4.7
+
+CHECKOUT OPTIONS:
+  GSHOpenSDK:
+    :git: https://github.com/zuomingTang/GSHOpenSDK.git
+    :tag: 0.2.32
+  TZMExternalPackagLib:
+    :git: https://github.com/zuomingTang/TZMExternalPackagLib.git
+    :tag: 0.1.4.1
+  TZMOpenLib:
+    :git: https://github.com/zuomingTang/TZMOpenLib.git
+    :tag: 0.4.7
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AlicloudPush: 3bdd90f69af50562275483b5157571f0a7c50a19
+  AlicloudUT: 5e6a87a56c08ca72c6711beec2449e1c254728ef
+  AlicloudUTDID: 79f509c3e997ef85fe307f8bfb2bb3be27f7e205
+  AlicloudUtils: 9047114c9c1854205ae26db58264bf1555242ffb
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  CocoaAsyncSocket: 3baeb1ddd969f81cf9fca81053ae49ef2d1cbbfa
+  EZOpenSDK: 53b5b0936da53dc006c3e313e119a85268223d9d
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  FMDBHelpers: c6bd06c59049d51d9072180f253b6ee53f695bf3
+  GSHOpenSDK: 6d6dfc0c9083d22b13560fa6cee803f89a05e4f1
+  IQKeyboardManager: 266cb7b1d11f94a3e71229d77f960f9a1b538e5b
+  JKWKWebViewHandler: 9b8eab474e76e96e17ac359d2fb9bf1eceeded62
+  LGAlertView: 2f5e83dd5cc2537de57d98727650609e86197d1a
+  LYWebViewController: 84e5d53c21ea2c80686ff0d89bfa2d7da7eea4e7
+  MarqueeLabel: 80ba85d2b76a9f5fa6c13de337db80bcd94feb1d
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJNIndexView: 6186c3ea302624ed5c008dba8a178677a7523cab
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  ObjcAssociatedObjectHelpers: 686c291f292c26a49b9b1fa7d58130a8d35d59d2
+  OpenShare: a560580dbb729d5c0c3cc1ee84cd6aa4a07e94c6
+  OpenSSL-Universal: 401888162f11c33ebbd46f782d9229da35c61327
+  Protobuf: 0fc0ad8bec688b2a3017a139953e01374fedbd5f
+  RealReachability: eae9c58d2db52fadd8e1cba4b5d4c028454fbc47
+  SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  TZMExternalPackagLib: b432dc0ea6e581f0d60ad18d2f680b23d6f625e2
+  TZMOpenLib: 21a7aef9aef145a02e2a7614ff928302b47fbe45
+  XXNibBridge: addb780e6db076eb2c61716aa60b176a6799b80f
+  YYCategories: 0fd4d9eb0994d8d0e355beb4081c8f7202a82b7b
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 84d505f09c093b02efb396aa4ac5f734d82c6b47
+
+COCOAPODS: 1.7.0.beta.3
