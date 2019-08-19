@@ -38,7 +38,6 @@
 }
 - (IBAction)login:(id)sender {
     [SVProgressHUD showWithStatus:@"登录中"];
-    __weak typeof(self)weakSelf = self;
     [GSHUserManager postLoginWithPhoneNumber:self.phone.text passWord:self.password.text block:^(GSHUserM *user, NSError *error) {
         [SVProgressHUD dismiss];
     }];

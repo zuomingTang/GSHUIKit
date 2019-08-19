@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		202607A1230A39F1000FA259 /* GSHDefenseMessageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2026078E230A39F1000FA259 /* GSHDefenseMessageVC.m */; };
+		202607A2230A39F1000FA259 /* GSHDefenseSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2026078F230A39F1000FA259 /* GSHDefenseSB.storyboard */; };
+		202607A3230A39F1000FA259 /* GSHDefensePlanChooseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 20260790230A39F1000FA259 /* GSHDefensePlanChooseVC.m */; };
+		202607A4230A39F1000FA259 /* GSHDefenseMeteChooseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 20260792230A39F1000FA259 /* GSHDefenseMeteChooseVC.m */; };
+		202607A5230A39F1000FA259 /* GSHDefenseListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 20260793230A39F1000FA259 /* GSHDefenseListVC.m */; };
+		202607A6230A39F1000FA259 /* GSHDefenseAddVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 20260796230A39F1000FA259 /* GSHDefenseAddVC.m */; };
+		202607A7230A39F1000FA259 /* GSHDefensePlanSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20260799230A39F1000FA259 /* GSHDefensePlanSB.storyboard */; };
+		202607A8230A39F1000FA259 /* GSHDefensePlanListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2026079B230A39F1000FA259 /* GSHDefensePlanListVC.m */; };
+		202607A9230A39F1000FA259 /* GSHDefenseAddPlanVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2026079D230A39F1000FA259 /* GSHDefenseAddPlanVC.m */; };
+		202607AA230A39F1000FA259 /* GSHDefensePlanTimeSetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2026079E230A39F1000FA259 /* GSHDefensePlanTimeSetVC.m */; };
+		202607B7230A3C21000FA259 /* GSHMessageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 202607AC230A3C20000FA259 /* GSHMessageVC.m */; };
+		202607B8230A3C21000FA259 /* GSHMessageNotiSetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 202607AD230A3C20000FA259 /* GSHMessageNotiSetVC.m */; };
+		202607B9230A3C21000FA259 /* GSHMessageTableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 202607AE230A3C20000FA259 /* GSHMessageTableViewVC.m */; };
+		202607BA230A3C21000FA259 /* GSHMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 202607B1230A3C20000FA259 /* GSHMessageCell.xib */; };
+		202607BB230A3C21000FA259 /* GSHMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 202607B2230A3C20000FA259 /* GSHMessageCell.m */; };
+		202607BC230A3C21000FA259 /* GSHMessageSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 202607B4230A3C20000FA259 /* GSHMessageSB.storyboard */; };
+		202607CF230A3CB6000FA259 /* UIView+ZJFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 202607BF230A3CB6000FA259 /* UIView+ZJFrame.m */; };
+		202607D0230A3CB6000FA259 /* ZJTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 202607C4230A3CB6000FA259 /* ZJTitleView.m */; };
+		202607D1230A3CB6000FA259 /* UIViewController+ZJScrollPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 202607C5230A3CB6000FA259 /* UIViewController+ZJScrollPageController.m */; };
+		202607D2230A3CB6000FA259 /* ZJContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 202607C8230A3CB6000FA259 /* ZJContentView.m */; };
+		202607D3230A3CB6000FA259 /* ZJCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 202607C9230A3CB6000FA259 /* ZJCollectionView.m */; };
+		202607D4230A3CB6000FA259 /* ZJSegmentStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 202607CA230A3CB6000FA259 /* ZJSegmentStyle.m */; };
+		202607D5230A3CB6000FA259 /* ZJScrollSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 202607CB230A3CB6000FA259 /* ZJScrollSegmentView.m */; };
+		202607D6230A3CB6000FA259 /* ZJScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 202607CC230A3CB6000FA259 /* ZJScrollPageView.m */; };
 		203D619E2303F2B00003F549 /* GSHFamilyTransferVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D617D2303F2B00003F549 /* GSHFamilyTransferVC.m */; };
 		203D619F2303F2B00003F549 /* GSHFamilyManagerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D617E2303F2B00003F549 /* GSHFamilyManagerVC.m */; };
 		203D61A02303F2B00003F549 /* GSHFamilyListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D617F2303F2B00003F549 /* GSHFamilyListVC.m */; };
@@ -70,6 +94,164 @@
 		203D623E2303F95D0003F549 /* GSHPickerViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D621D2303F95C0003F549 /* GSHPickerViewManager.m */; };
 		203D62422303FA310003F549 /* GSHWeChatStyleActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D62412303FA310003F549 /* GSHWeChatStyleActionSheetView.m */; };
 		203D62472303FF610003F549 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203D62452303FF610003F549 /* Main.storyboard */; };
+		203D6268230540CA0003F549 /* GSHDeviceSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203D624A230540CA0003F549 /* GSHDeviceSB.storyboard */; };
+		203D6269230540CA0003F549 /* GSHDeviceListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D624B230540CA0003F549 /* GSHDeviceListVC.m */; };
+		203D626A230540CA0003F549 /* GSHDeviceCategoryGuideVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D624E230540CA0003F549 /* GSHDeviceCategoryGuideVC.m */; };
+		203D626B230540CA0003F549 /* GSHDeviceSearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D624F230540CA0003F549 /* GSHDeviceSearchVC.m */; };
+		203D626C230540CA0003F549 /* GSHDeviceEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6250230540CA0003F549 /* GSHDeviceEditVC.m */; };
+		203D626D230540CA0003F549 /* GSHDeviceChooseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6251230540CA0003F549 /* GSHDeviceChooseVC.m */; };
+		203D626E230540CA0003F549 /* GSHConfigWifiInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6255230540CA0003F549 /* GSHConfigWifiInfoVC.m */; };
+		203D626F230540CA0003F549 /* GSHAddYingShiDeviceSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203D625C230540CA0003F549 /* GSHAddYingShiDeviceSB.storyboard */; };
+		203D6270230540CA0003F549 /* GSHYingShiDeviceEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D625D230540CA0003F549 /* GSHYingShiDeviceEditVC.m */; };
+		203D6271230540CA0003F549 /* GSHYingShiDeviceDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D625E230540CA0003F549 /* GSHYingShiDeviceDetailVC.m */; };
+		203D6272230540CA0003F549 /* GSHYingShiDeviceTypeSeleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D625F230540CA0003F549 /* GSHYingShiDeviceTypeSeleVC.m */; };
+		203D6273230540CA0003F549 /* GSHYingShiDeviceCategoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6260230540CA0003F549 /* GSHYingShiDeviceCategoryVC.m */; };
+		203D6274230540CA0003F549 /* GSHYingShiDeviceWifiLinkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6261230540CA0003F549 /* GSHYingShiDeviceWifiLinkVC.m */; };
+		203D6275230540CA0003F549 /* GSHAddDeviceSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203D6262230540CA0003F549 /* GSHAddDeviceSB.storyboard */; };
+		203D6276230540CA0003F549 /* GSHDeviceCategoryListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6265230540CA0003F549 /* GSHDeviceCategoryListVC.m */; };
+		203D627B230541090003F549 /* GSHBlueRoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6279230541090003F549 /* GSHBlueRoundButton.m */; };
+		203D627E230547860003F549 /* GSHPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D627C230547860003F549 /* GSHPickerView.m */; };
+		203D6287230547F70003F549 /* GSHDeviceRelevanceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6280230547F70003F549 /* GSHDeviceRelevanceVC.m */; };
+		203D6288230547F70003F549 /* GSHChooseSwitchItemVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6281230547F70003F549 /* GSHChooseSwitchItemVC.m */; };
+		203D6289230547F70003F549 /* GSHDoubleControlSwitchSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203D6285230547F70003F549 /* GSHDoubleControlSwitchSB.storyboard */; };
+		203D628A230547F70003F549 /* GSHChooseSwitchListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6286230547F70003F549 /* GSHChooseSwitchListVC.m */; };
+		203D628F230549910003F549 /* GSHChooseRoomVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 203D628C230549910003F549 /* GSHChooseRoomVC.xib */; };
+		203D6290230549910003F549 /* GSHChooseRoomVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D628E230549910003F549 /* GSHChooseRoomVC.m */; };
+		203D629B230549EB0003F549 /* GSHAddGWDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6294230549EB0003F549 /* GSHAddGWDetailVC.m */; };
+		203D629C230549EB0003F549 /* GSHAddGWListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6295230549EB0003F549 /* GSHAddGWListVC.m */; };
+		203D629D230549EB0003F549 /* AddGWSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203D6296230549EB0003F549 /* AddGWSB.storyboard */; };
+		203D629E230549EB0003F549 /* GSHAddGWGuideVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6297230549EB0003F549 /* GSHAddGWGuideVC.m */; };
+		203D629F230549EB0003F549 /* GSHAddGWSearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6298230549EB0003F549 /* GSHAddGWSearchVC.m */; };
+		203D62AA23054C3D0003F549 /* YSCNewVoiceWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D62A223054C3D0003F549 /* YSCNewVoiceWaveView.m */; };
+		203D62AB23054C3D0003F549 /* GSHSpreadAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D62A623054C3D0003F549 /* GSHSpreadAnimationView.m */; };
+		203D62AC23054C3D0003F549 /* GSHScanAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D62A823054C3D0003F549 /* GSHScanAnimationView.m */; };
+		203D630423054D0C0003F549 /* TZMVoIPPushManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D630323054D0C0003F549 /* TZMVoIPPushManager.m */; };
+		203D630823054D5D0003F549 /* JKCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D630723054D5C0003F549 /* JKCircleView.m */; };
+		203D630C23054DA90003F549 /* GSHChooseRoomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D630A23054DA80003F549 /* GSHChooseRoomCell.m */; };
+		203D630D23054DA90003F549 /* GSHChooseRoomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 203D630B23054DA90003F549 /* GSHChooseRoomCell.xib */; };
+		203D63132305519D0003F549 /* TZMProgressBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 203D63112305519C0003F549 /* TZMProgressBar.xib */; };
+		203D63142305519D0003F549 /* TZMProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D63122305519C0003F549 /* TZMProgressBar.m */; };
+		203D631B230551D00003F549 /* SensorListSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203D6316230551D00003F549 /* SensorListSB.storyboard */; };
+		203D631C230551D00003F549 /* GSHSensorDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6317230551D00003F549 /* GSHSensorDetailVC.m */; };
+		203D631D230551D00003F549 /* GSHSensorListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6318230551D00003F549 /* GSHSensorListVC.m */; };
+		203D6325230551EE0003F549 /* PopoverAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6322230551EE0003F549 /* PopoverAction.m */; };
+		203D6326230551EE0003F549 /* PopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6323230551EE0003F549 /* PopoverView.m */; };
+		203D6327230551EE0003F549 /* PopoverViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6324230551EE0003F549 /* PopoverViewCell.m */; };
+		203D63342305534F0003F549 /* TZMBrokenLineGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D63332305534E0003F549 /* TZMBrokenLineGraphView.m */; };
+		203D6338230554E40003F549 /* GSHWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6337230554E40003F549 /* GSHWebViewController.m */; };
+		203D645D230556430003F549 /* GSHHuoDongJianCeSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D63EE230556430003F549 /* GSHHuoDongJianCeSettingVC.m */; };
+		203D645E230556430003F549 /* GSHYingshiSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D63EF230556430003F549 /* GSHYingshiSettingVC.m */; };
+		203D645F230556430003F549 /* GSHYingshiCameraToolSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203D63F1230556430003F549 /* GSHYingshiCameraToolSB.storyboard */; };
+		203D6460230556430003F549 /* GSHYingShiLiXianVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D63F4230556430003F549 /* GSHYingShiLiXianVC.m */; };
+		203D6461230556430003F549 /* GSHYingShiPlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D63F6230556430003F549 /* GSHYingShiPlayerVC.m */; };
+		203D6462230556430003F549 /* GSHYingShiCameraVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D63F7230556430003F549 /* GSHYingShiCameraVC.m */; };
+		203D6463230556430003F549 /* GSHGaoJingDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D63F8230556430003F549 /* GSHGaoJingDetailVC.m */; };
+		203D6464230556430003F549 /* GSHYingShiGaoJingListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D63F9230556430003F549 /* GSHYingShiGaoJingListVC.m */; };
+		203D6465230556430003F549 /* GSHYingShiVideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D63FA230556430003F549 /* GSHYingShiVideoVC.m */; };
+		203D6466230556430003F549 /* GSHYingShiVideoListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D63FB230556430003F549 /* GSHYingShiVideoListVC.m */; };
+		203D6467230556430003F549 /* GSHYingShiAlarmSoundModeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D63FC230556430003F549 /* GSHYingShiAlarmSoundModeVC.m */; };
+		203D6468230556430003F549 /* GSHYingshiDoorbellVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D63FF230556430003F549 /* GSHYingshiDoorbellVC.m */; };
+		203D6469230556430003F549 /* GSHThreeWaySwitchHandleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6405230556430003F549 /* GSHThreeWaySwitchHandleVC.m */; };
+		203D646B230556430003F549 /* GSHUnderFloorHeatSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203D6408230556430003F549 /* GSHUnderFloorHeatSB.storyboard */; };
+		203D646C230556430003F549 /* GSHDeviceSocketHandleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6409230556430003F549 /* GSHDeviceSocketHandleVC.m */; };
+		203D646D230556430003F549 /* GSHDeviceSocketHandleSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203D640A230556430003F549 /* GSHDeviceSocketHandleSB.storyboard */; };
+		203D646E230556430003F549 /* GSHTwoWayCurtainHandleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D640B230556430003F549 /* GSHTwoWayCurtainHandleVC.m */; };
+		203D646F230556430003F549 /* GSHTwoWayCurtainHandleSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203D640E230556430003F549 /* GSHTwoWayCurtainHandleSB.storyboard */; };
+		203D6470230556430003F549 /* GSHNewWindHandleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D640F230556430003F549 /* GSHNewWindHandleVC.m */; };
+		203D6472230556430003F549 /* GSHNewWindHandleSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203D6413230556430003F549 /* GSHNewWindHandleSB.storyboard */; };
+		203D6473230556430003F549 /* GSHAirConditionerHandleSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203D6414230556430003F549 /* GSHAirConditionerHandleSB.storyboard */; };
+		203D6474230556430003F549 /* GSHThreeWaySwitchHandleSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203D6416230556430003F549 /* GSHThreeWaySwitchHandleSB.storyboard */; };
+		203D6475230556430003F549 /* GSHAirConditionerHandleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6418230556430003F549 /* GSHAirConditionerHandleVC.m */; };
+		203D6476230556430003F549 /* GSHUnderFloorHeatVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6419230556430003F549 /* GSHUnderFloorHeatVC.m */; };
+		203D6477230556430003F549 /* GSHDeviceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D641A230556430003F549 /* GSHDeviceVC.m */; };
+		203D6478230556430003F549 /* GSHScenePanelHandleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D641C230556430003F549 /* GSHScenePanelHandleVC.m */; };
+		203D6479230556430003F549 /* GSHChooseSceneListSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203D641F230556430003F549 /* GSHChooseSceneListSB.storyboard */; };
+		203D647A230556430003F549 /* GSHScenePanelHandleSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203D6420230556430003F549 /* GSHScenePanelHandleSB.storyboard */; };
+		203D647B230556430003F549 /* GSHChooseSceneListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6421230556430003F549 /* GSHChooseSceneListVC.m */; };
+		203D647C230556430003F549 /* GSHScenePanelEditSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203D6423230556430003F549 /* GSHScenePanelEditSB.storyboard */; };
+		203D647D230556430003F549 /* GSHScenePanelEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6424230556430003F549 /* GSHScenePanelEditVC.m */; };
+		203D647E230556430003F549 /* GSHTVSeleAlertCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6428230556430003F549 /* GSHTVSeleAlertCell.m */; };
+		203D647F230556430003F549 /* GSHTVSeleAlertVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 203D642A230556430003F549 /* GSHTVSeleAlertVC.xib */; };
+		203D6480230556430003F549 /* GSHTVSeleAlertCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 203D642B230556430003F549 /* GSHTVSeleAlertCell.xib */; };
+		203D6481230556430003F549 /* GSHTVSeleAlertVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D642D230556430003F549 /* GSHTVSeleAlertVC.m */; };
+		203D6482230556430003F549 /* GSHInfraredControllerVerifyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D642F230556430003F549 /* GSHInfraredControllerVerifyVC.m */; };
+		203D6483230556430003F549 /* GSHInfraredControllerTypeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6431230556430003F549 /* GSHInfraredControllerTypeVC.m */; };
+		203D6484230556430003F549 /* GSHInfraredControllerInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6433230556430003F549 /* GSHInfraredControllerInfoVC.m */; };
+		203D6485230556430003F549 /* GSHInfraredVirtualDeviceSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203D6434230556430003F549 /* GSHInfraredVirtualDeviceSB.storyboard */; };
+		203D6486230556430003F549 /* GSHInfraredVirtualDeviceTVVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6435230556430003F549 /* GSHInfraredVirtualDeviceTVVC.m */; };
+		203D6487230556430003F549 /* GSHInfraredVirtualDeviceAirConditionerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6436230556430003F549 /* GSHInfraredVirtualDeviceAirConditionerVC.m */; };
+		203D6488230556430003F549 /* GSHInfraredControllerEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6437230556430003F549 /* GSHInfraredControllerEditVC.m */; };
+		203D6489230556430003F549 /* GSHInfraredControllerSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203D6439230556430003F549 /* GSHInfraredControllerSB.storyboard */; };
+		203D648A230556430003F549 /* GSHInfraredControllerBrandVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D643A230556430003F549 /* GSHInfraredControllerBrandVC.m */; };
+		203D648B230556430003F549 /* GSHAirConditionerTransverterEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D643E230556430003F549 /* GSHAirConditionerTransverterEditVC.m */; };
+		203D648C230556430003F549 /* GSHAirConditionerTransverterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D643F230556430003F549 /* GSHAirConditionerTransverterVC.m */; };
+		203D648D230556430003F549 /* GSHAirConditionerTransverterSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203D6441230556430003F549 /* GSHAirConditionerTransverterSB.storyboard */; };
+		203D648F230556430003F549 /* GSHSensorGroupSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203D6447230556430003F549 /* GSHSensorGroupSB.storyboard */; };
+		203D6490230556430003F549 /* GSHSensorGroupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6448230556430003F549 /* GSHSensorGroupVC.m */; };
+		203D6491230556430003F549 /* GSHSensorGroupEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6449230556430003F549 /* GSHSensorGroupEditVC.m */; };
+		203D6492230556430003F549 /* GSHSensorGroupTypeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D644B230556430003F549 /* GSHSensorGroupTypeVC.m */; };
+		203D6493230556430003F549 /* GSHHumitureSensorSetSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203D644F230556430003F549 /* GSHHumitureSensorSetSB.storyboard */; };
+		203D6494230556430003F549 /* GSHGateMagnetismSetSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203D6450230556430003F549 /* GSHGateMagnetismSetSB.storyboard */; };
+		203D6495230556430003F549 /* GSHAlarmSensorSetSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203D6452230556430003F549 /* GSHAlarmSensorSetSB.storyboard */; };
+		203D6496230556430003F549 /* GSHAirBoxSensorSetSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203D6455230556430003F549 /* GSHAirBoxSensorSetSB.storyboard */; };
+		203D6497230556430003F549 /* GSHAlarmSensorSetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6457230556430003F549 /* GSHAlarmSensorSetVC.m */; };
+		203D6498230556430003F549 /* GSHAirBoxSensorSetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6458230556430003F549 /* GSHAirBoxSensorSetVC.m */; };
+		203D6499230556430003F549 /* GSHAirConditionerSetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D6459230556430003F549 /* GSHAirConditionerSetVC.m */; };
+		203D649A230556430003F549 /* GSHAirConditionerSetSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203D645A230556430003F549 /* GSHAirConditionerSetSB.storyboard */; };
+		203D649B230556430003F549 /* GSHHumitureSensorSetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D645B230556430003F549 /* GSHHumitureSensorSetVC.m */; };
+		203D649C230556430003F549 /* GSHGateMagnetismSetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D645C230556430003F549 /* GSHGateMagnetismSetVC.m */; };
+		203D64EF23055B3B0003F549 /* GSHAddSceneVCViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D649F23055B3A0003F549 /* GSHAddSceneVCViewModel.m */; };
+		203D64F023055B3B0003F549 /* GSHVoiceKeyWordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D64A323055B3A0003F549 /* GSHVoiceKeyWordVC.m */; };
+		203D64F123055B3B0003F549 /* GSHCollectionTagsFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D64A623055B3A0003F549 /* GSHCollectionTagsFlowLayout.m */; };
+		203D64F223055B3B0003F549 /* GSHSceneBackgroundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D64A723055B3A0003F549 /* GSHSceneBackgroundVC.m */; };
+		203D64F323055B3B0003F549 /* GSHSceneEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D64A923055B3A0003F549 /* GSHSceneEditVC.m */; };
+		203D64F623055B3B0003F549 /* GSHAddSceneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D64AF23055B3A0003F549 /* GSHAddSceneVC.m */; };
+		203D64F723055B3B0003F549 /* GSHChooseDeviceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D64B323055B3A0003F549 /* GSHChooseDeviceVC.m */; };
+		203D64F823055B3B0003F549 /* GSHSceneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D64B523055B3A0003F549 /* GSHSceneVC.m */; };
+		203D64F923055B3B0003F549 /* GSHVoiceKeyWordHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D64B923055B3A0003F549 /* GSHVoiceKeyWordHeadView.m */; };
+		203D64FA23055B3B0003F549 /* GSHVoiceKeyWordHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 203D64BB23055B3A0003F549 /* GSHVoiceKeyWordHeadView.xib */; };
+		203D64FB23055B3B0003F549 /* GSHVoiceKeyWordTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D64BC23055B3A0003F549 /* GSHVoiceKeyWordTagCell.m */; };
+		203D64FD23055B3B0003F549 /* GSHSceneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D64BE23055B3A0003F549 /* GSHSceneCell.m */; };
+		203D64FF23055B3B0003F549 /* GSHSceneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 203D64C023055B3B0003F549 /* GSHSceneCell.xib */; };
+		203D650023055B3B0003F549 /* GSHSceneBackCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D64C223055B3B0003F549 /* GSHSceneBackCell.m */; };
+		203D650123055B3B0003F549 /* GSHAddSceneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 203D64C323055B3B0003F549 /* GSHAddSceneCell.xib */; };
+		203D650223055B3B0003F549 /* GSHAddSceneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D64C623055B3B0003F549 /* GSHAddSceneCell.m */; };
+		203D650323055B3B0003F549 /* GSHSceneBackCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 203D64C723055B3B0003F549 /* GSHSceneBackCell.xib */; };
+		203D650423055B3B0003F549 /* GSHChooseDeviceListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 203D64CC23055B3B0003F549 /* GSHChooseDeviceListCell.xib */; };
+		203D650523055B3B0003F549 /* GSHChooseDeviceListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D64CD23055B3B0003F549 /* GSHChooseDeviceListCell.m */; };
+		203D650623055B3B0003F549 /* GSHAddAutoVCViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D64D023055B3B0003F549 /* GSHAddAutoVCViewModel.m */; };
+		203D650723055B3B0003F549 /* GSHAutomateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D64D323055B3B0003F549 /* GSHAutomateVC.m */; };
+		203D650823055B3B0003F549 /* GSHAutoEffectTimeSetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D64D723055B3B0003F549 /* GSHAutoEffectTimeSetVC.m */; };
+		203D650923055B3B0003F549 /* GSHAddTriggerConditionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D64D923055B3B0003F549 /* GSHAddTriggerConditionVC.m */; };
+		203D650A23055B3B0003F549 /* GSHAddAutoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D64DA23055B3B0003F549 /* GSHAddAutoVC.m */; };
+		203D650B23055B3B0003F549 /* GSHAddAutomationSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203D64DB23055B3B0003F549 /* GSHAddAutomationSB.storyboard */; };
+		203D650C23055B3B0003F549 /* GSHAutoAddActionSceneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D64DF23055B3B0003F549 /* GSHAutoAddActionSceneVC.m */; };
+		203D650D23055B3B0003F549 /* GSHAutoAddActionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D64E123055B3B0003F549 /* GSHAutoAddActionVC.m */; };
+		203D650E23055B3B0003F549 /* GSHAutoAddAutoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D64E323055B3B0003F549 /* GSHAutoAddAutoVC.m */; };
+		203D650F23055B3B0003F549 /* GSHAddAutoAction.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203D64E423055B3B0003F549 /* GSHAddAutoAction.storyboard */; };
+		203D651023055B3B0003F549 /* GSHChooseRepeatCountVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D64E523055B3B0003F549 /* GSHChooseRepeatCountVC.m */; };
+		203D651123055B3B0003F549 /* GSHAddAutoChooseDeviceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D64E823055B3B0003F549 /* GSHAddAutoChooseDeviceVC.m */; };
+		203D651223055B3B0003F549 /* GSHAutoTimeSetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D64EA23055B3B0003F549 /* GSHAutoTimeSetVC.m */; };
+		203D651323055B3B0003F549 /* GSHAutomateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D64EC23055B3B0003F549 /* GSHAutomateCell.m */; };
+		203D651423055B3B0003F549 /* GSHAutomateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 203D64ED23055B3B0003F549 /* GSHAutomateCell.xib */; };
+		203D651A23055C060003F549 /* MGSwipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D651623055C060003F549 /* MGSwipeTableCell.m */; };
+		203D651B23055C060003F549 /* MGSwipeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D651923055C060003F549 /* MGSwipeButton.m */; };
+		203D652223055C610003F549 /* GSHGatewayCopyRestoreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D651D23055C610003F549 /* GSHGatewayCopyRestoreVC.m */; };
+		203D652323055C610003F549 /* GSHGateWaySettingSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203D651E23055C610003F549 /* GSHGateWaySettingSB.storyboard */; };
+		203D652423055C610003F549 /* GSHGateWayUpdateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D652023055C610003F549 /* GSHGateWayUpdateVC.m */; };
+		203D652B23055C990003F549 /* GSHGWSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D652623055C990003F549 /* GSHGWSettingVC.m */; };
+		203D652C23055C990003F549 /* GSHSettingSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203D652823055C990003F549 /* GSHSettingSB.storyboard */; };
+		203D652D23055C990003F549 /* GSHAboutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D652A23055C990003F549 /* GSHAboutVC.m */; };
+		203D653923055CD50003F549 /* YeeBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D653423055CD50003F549 /* YeeBadgeView.m */; };
+		203D653A23055CD50003F549 /* UITabBarItem+YeeBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D653523055CD50003F549 /* UITabBarItem+YeeBadge.m */; };
+		203D653B23055CD50003F549 /* UIBarButtonItem+YeeBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D653723055CD50003F549 /* UIBarButtonItem+YeeBadge.m */; };
+		203D653C23055CD50003F549 /* UIView+YeeBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D653823055CD50003F549 /* UIView+YeeBadge.m */; };
+		203D654323055CF20003F549 /* GSHDropDownMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 203D653F23055CF20003F549 /* GSHDropDownMenuCell.xib */; };
+		203D654423055CF20003F549 /* GSHDropDownMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D654123055CF20003F549 /* GSHDropDownMenuView.m */; };
+		203D654523055CF20003F549 /* GSHDropDownMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D654223055CF20003F549 /* GSHDropDownMenuCell.m */; };
+		203D65512306935F0003F549 /* GSHSensorParametersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D654C2306935F0003F549 /* GSHSensorParametersView.m */; };
+		203D65522306935F0003F549 /* GSHHomeSensorTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D654D2306935F0003F549 /* GSHHomeSensorTopView.m */; };
+		203D65532306935F0003F549 /* GSHHomeSensorTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 203D654E2306935F0003F549 /* GSHHomeSensorTopView.xib */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -98,6 +280,51 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2026078E230A39F1000FA259 /* GSHDefenseMessageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHDefenseMessageVC.m; sourceTree = "<group>"; };
+		2026078F230A39F1000FA259 /* GSHDefenseSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GSHDefenseSB.storyboard; sourceTree = "<group>"; };
+		20260790230A39F1000FA259 /* GSHDefensePlanChooseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHDefensePlanChooseVC.m; sourceTree = "<group>"; };
+		20260791230A39F1000FA259 /* GSHDefenseAddVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHDefenseAddVC.h; sourceTree = "<group>"; };
+		20260792230A39F1000FA259 /* GSHDefenseMeteChooseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHDefenseMeteChooseVC.m; sourceTree = "<group>"; };
+		20260793230A39F1000FA259 /* GSHDefenseListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHDefenseListVC.m; sourceTree = "<group>"; };
+		20260794230A39F1000FA259 /* GSHDefenseMessageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHDefenseMessageVC.h; sourceTree = "<group>"; };
+		20260795230A39F1000FA259 /* GSHDefenseMeteChooseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHDefenseMeteChooseVC.h; sourceTree = "<group>"; };
+		20260796230A39F1000FA259 /* GSHDefenseAddVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHDefenseAddVC.m; sourceTree = "<group>"; };
+		20260797230A39F1000FA259 /* GSHDefensePlanChooseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHDefensePlanChooseVC.h; sourceTree = "<group>"; };
+		20260799230A39F1000FA259 /* GSHDefensePlanSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GSHDefensePlanSB.storyboard; sourceTree = "<group>"; };
+		2026079A230A39F1000FA259 /* GSHDefenseAddPlanVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHDefenseAddPlanVC.h; sourceTree = "<group>"; };
+		2026079B230A39F1000FA259 /* GSHDefensePlanListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHDefensePlanListVC.m; sourceTree = "<group>"; };
+		2026079C230A39F1000FA259 /* GSHDefensePlanTimeSetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHDefensePlanTimeSetVC.h; sourceTree = "<group>"; };
+		2026079D230A39F1000FA259 /* GSHDefenseAddPlanVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHDefenseAddPlanVC.m; sourceTree = "<group>"; };
+		2026079E230A39F1000FA259 /* GSHDefensePlanTimeSetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHDefensePlanTimeSetVC.m; sourceTree = "<group>"; };
+		2026079F230A39F1000FA259 /* GSHDefensePlanListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHDefensePlanListVC.h; sourceTree = "<group>"; };
+		202607A0230A39F1000FA259 /* GSHDefenseListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHDefenseListVC.h; sourceTree = "<group>"; };
+		202607AC230A3C20000FA259 /* GSHMessageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHMessageVC.m; sourceTree = "<group>"; };
+		202607AD230A3C20000FA259 /* GSHMessageNotiSetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHMessageNotiSetVC.m; sourceTree = "<group>"; };
+		202607AE230A3C20000FA259 /* GSHMessageTableViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHMessageTableViewVC.m; sourceTree = "<group>"; };
+		202607B0230A3C20000FA259 /* GSHMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHMessageCell.h; sourceTree = "<group>"; };
+		202607B1230A3C20000FA259 /* GSHMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSHMessageCell.xib; sourceTree = "<group>"; };
+		202607B2230A3C20000FA259 /* GSHMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHMessageCell.m; sourceTree = "<group>"; };
+		202607B3230A3C20000FA259 /* GSHMessageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHMessageVC.h; sourceTree = "<group>"; };
+		202607B4230A3C20000FA259 /* GSHMessageSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GSHMessageSB.storyboard; sourceTree = "<group>"; };
+		202607B5230A3C20000FA259 /* GSHMessageNotiSetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHMessageNotiSetVC.h; sourceTree = "<group>"; };
+		202607B6230A3C20000FA259 /* GSHMessageTableViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHMessageTableViewVC.h; sourceTree = "<group>"; };
+		202607BE230A3CB6000FA259 /* ZJContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJContentView.h; sourceTree = "<group>"; };
+		202607BF230A3CB6000FA259 /* UIView+ZJFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZJFrame.m"; sourceTree = "<group>"; };
+		202607C0230A3CB6000FA259 /* ZJCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCollectionView.h; sourceTree = "<group>"; };
+		202607C1230A3CB6000FA259 /* ZJScrollSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJScrollSegmentView.h; sourceTree = "<group>"; };
+		202607C2230A3CB6000FA259 /* ZJScrollPageViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJScrollPageViewDelegate.h; sourceTree = "<group>"; };
+		202607C3230A3CB6000FA259 /* ZJSegmentStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJSegmentStyle.h; sourceTree = "<group>"; };
+		202607C4230A3CB6000FA259 /* ZJTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTitleView.m; sourceTree = "<group>"; };
+		202607C5230A3CB6000FA259 /* UIViewController+ZJScrollPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZJScrollPageController.m"; sourceTree = "<group>"; };
+		202607C6230A3CB6000FA259 /* ZJScrollPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJScrollPageView.h; sourceTree = "<group>"; };
+		202607C7230A3CB6000FA259 /* UIView+ZJFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZJFrame.h"; sourceTree = "<group>"; };
+		202607C8230A3CB6000FA259 /* ZJContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJContentView.m; sourceTree = "<group>"; };
+		202607C9230A3CB6000FA259 /* ZJCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCollectionView.m; sourceTree = "<group>"; };
+		202607CA230A3CB6000FA259 /* ZJSegmentStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJSegmentStyle.m; sourceTree = "<group>"; };
+		202607CB230A3CB6000FA259 /* ZJScrollSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJScrollSegmentView.m; sourceTree = "<group>"; };
+		202607CC230A3CB6000FA259 /* ZJScrollPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJScrollPageView.m; sourceTree = "<group>"; };
+		202607CD230A3CB6000FA259 /* UIViewController+ZJScrollPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZJScrollPageController.h"; sourceTree = "<group>"; };
+		202607CE230A3CB6000FA259 /* ZJTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTitleView.h; sourceTree = "<group>"; };
 		203D617D2303F2B00003F549 /* GSHFamilyTransferVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHFamilyTransferVC.m; sourceTree = "<group>"; };
 		203D617E2303F2B00003F549 /* GSHFamilyManagerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHFamilyManagerVC.m; sourceTree = "<group>"; };
 		203D617F2303F2B00003F549 /* GSHFamilyListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHFamilyListVC.m; sourceTree = "<group>"; };
@@ -133,7 +360,6 @@
 		203D61B32303F4560003F549 /* JXMovableCellTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXMovableCellTableView.m; sourceTree = "<group>"; };
 		203D61B62303F6600003F549 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
 		203D61B72303F6600003F549 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		203D61B82303F6600003F549 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
 		203D61B92303F6600003F549 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
 		203D61BA2303F6600003F549 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
 		203D61BB2303F6600003F549 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
@@ -219,6 +445,284 @@
 		203D62402303FA310003F549 /* GSHWeChatStyleActionSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHWeChatStyleActionSheetView.h; sourceTree = "<group>"; };
 		203D62412303FA310003F549 /* GSHWeChatStyleActionSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHWeChatStyleActionSheetView.m; sourceTree = "<group>"; };
 		203D62462303FF610003F549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		203D6249230540CA0003F549 /* GSHDeviceListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHDeviceListVC.h; sourceTree = "<group>"; };
+		203D624A230540CA0003F549 /* GSHDeviceSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GSHDeviceSB.storyboard; sourceTree = "<group>"; };
+		203D624B230540CA0003F549 /* GSHDeviceListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHDeviceListVC.m; sourceTree = "<group>"; };
+		203D624D230540CA0003F549 /* GSHConfigWifiInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHConfigWifiInfoVC.h; sourceTree = "<group>"; };
+		203D624E230540CA0003F549 /* GSHDeviceCategoryGuideVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHDeviceCategoryGuideVC.m; sourceTree = "<group>"; };
+		203D624F230540CA0003F549 /* GSHDeviceSearchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHDeviceSearchVC.m; sourceTree = "<group>"; };
+		203D6250230540CA0003F549 /* GSHDeviceEditVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHDeviceEditVC.m; sourceTree = "<group>"; };
+		203D6251230540CA0003F549 /* GSHDeviceChooseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHDeviceChooseVC.m; sourceTree = "<group>"; };
+		203D6252230540CA0003F549 /* GSHDeviceCategoryListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHDeviceCategoryListVC.h; sourceTree = "<group>"; };
+		203D6254230540CA0003F549 /* GSHDeviceCategoryGuideVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHDeviceCategoryGuideVC.h; sourceTree = "<group>"; };
+		203D6255230540CA0003F549 /* GSHConfigWifiInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHConfigWifiInfoVC.m; sourceTree = "<group>"; };
+		203D6257230540CA0003F549 /* GSHYingShiDeviceTypeSeleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHYingShiDeviceTypeSeleVC.h; sourceTree = "<group>"; };
+		203D6258230540CA0003F549 /* GSHYingShiDeviceDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHYingShiDeviceDetailVC.h; sourceTree = "<group>"; };
+		203D6259230540CA0003F549 /* GSHYingShiDeviceEditVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHYingShiDeviceEditVC.h; sourceTree = "<group>"; };
+		203D625A230540CA0003F549 /* GSHYingShiDeviceCategoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHYingShiDeviceCategoryVC.h; sourceTree = "<group>"; };
+		203D625B230540CA0003F549 /* GSHYingShiDeviceWifiLinkVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHYingShiDeviceWifiLinkVC.h; sourceTree = "<group>"; };
+		203D625C230540CA0003F549 /* GSHAddYingShiDeviceSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GSHAddYingShiDeviceSB.storyboard; sourceTree = "<group>"; };
+		203D625D230540CA0003F549 /* GSHYingShiDeviceEditVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHYingShiDeviceEditVC.m; sourceTree = "<group>"; };
+		203D625E230540CA0003F549 /* GSHYingShiDeviceDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHYingShiDeviceDetailVC.m; sourceTree = "<group>"; };
+		203D625F230540CA0003F549 /* GSHYingShiDeviceTypeSeleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHYingShiDeviceTypeSeleVC.m; sourceTree = "<group>"; };
+		203D6260230540CA0003F549 /* GSHYingShiDeviceCategoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHYingShiDeviceCategoryVC.m; sourceTree = "<group>"; };
+		203D6261230540CA0003F549 /* GSHYingShiDeviceWifiLinkVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHYingShiDeviceWifiLinkVC.m; sourceTree = "<group>"; };
+		203D6262230540CA0003F549 /* GSHAddDeviceSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GSHAddDeviceSB.storyboard; sourceTree = "<group>"; };
+		203D6263230540CA0003F549 /* GSHDeviceEditVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHDeviceEditVC.h; sourceTree = "<group>"; };
+		203D6264230540CA0003F549 /* GSHDeviceSearchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHDeviceSearchVC.h; sourceTree = "<group>"; };
+		203D6265230540CA0003F549 /* GSHDeviceCategoryListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHDeviceCategoryListVC.m; sourceTree = "<group>"; };
+		203D6266230540CA0003F549 /* GSHDeviceChooseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHDeviceChooseVC.h; sourceTree = "<group>"; };
+		203D6279230541090003F549 /* GSHBlueRoundButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHBlueRoundButton.m; sourceTree = "<group>"; };
+		203D627A230541090003F549 /* GSHBlueRoundButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHBlueRoundButton.h; sourceTree = "<group>"; };
+		203D627C230547860003F549 /* GSHPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHPickerView.m; sourceTree = "<group>"; };
+		203D627D230547860003F549 /* GSHPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHPickerView.h; sourceTree = "<group>"; };
+		203D6280230547F70003F549 /* GSHDeviceRelevanceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHDeviceRelevanceVC.m; sourceTree = "<group>"; };
+		203D6281230547F70003F549 /* GSHChooseSwitchItemVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHChooseSwitchItemVC.m; sourceTree = "<group>"; };
+		203D6282230547F70003F549 /* GSHChooseSwitchListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHChooseSwitchListVC.h; sourceTree = "<group>"; };
+		203D6283230547F70003F549 /* GSHDeviceRelevanceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHDeviceRelevanceVC.h; sourceTree = "<group>"; };
+		203D6284230547F70003F549 /* GSHChooseSwitchItemVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHChooseSwitchItemVC.h; sourceTree = "<group>"; };
+		203D6285230547F70003F549 /* GSHDoubleControlSwitchSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GSHDoubleControlSwitchSB.storyboard; sourceTree = "<group>"; };
+		203D6286230547F70003F549 /* GSHChooseSwitchListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHChooseSwitchListVC.m; sourceTree = "<group>"; };
+		203D628C230549910003F549 /* GSHChooseRoomVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSHChooseRoomVC.xib; sourceTree = "<group>"; };
+		203D628D230549910003F549 /* GSHChooseRoomVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHChooseRoomVC.h; sourceTree = "<group>"; };
+		203D628E230549910003F549 /* GSHChooseRoomVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHChooseRoomVC.m; sourceTree = "<group>"; };
+		203D6292230549EB0003F549 /* GSHAddGWSearchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHAddGWSearchVC.h; sourceTree = "<group>"; };
+		203D6293230549EB0003F549 /* GSHAddGWGuideVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHAddGWGuideVC.h; sourceTree = "<group>"; };
+		203D6294230549EB0003F549 /* GSHAddGWDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHAddGWDetailVC.m; sourceTree = "<group>"; };
+		203D6295230549EB0003F549 /* GSHAddGWListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHAddGWListVC.m; sourceTree = "<group>"; };
+		203D6296230549EB0003F549 /* AddGWSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddGWSB.storyboard; sourceTree = "<group>"; };
+		203D6297230549EB0003F549 /* GSHAddGWGuideVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHAddGWGuideVC.m; sourceTree = "<group>"; };
+		203D6298230549EB0003F549 /* GSHAddGWSearchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHAddGWSearchVC.m; sourceTree = "<group>"; };
+		203D6299230549EB0003F549 /* GSHAddGWDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHAddGWDetailVC.h; sourceTree = "<group>"; };
+		203D629A230549EB0003F549 /* GSHAddGWListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHAddGWListVC.h; sourceTree = "<group>"; };
+		203D62A223054C3D0003F549 /* YSCNewVoiceWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSCNewVoiceWaveView.m; sourceTree = "<group>"; };
+		203D62A323054C3D0003F549 /* YSCNewVoiceWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSCNewVoiceWaveView.h; sourceTree = "<group>"; };
+		203D62A523054C3D0003F549 /* GSHSpreadAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHSpreadAnimationView.h; sourceTree = "<group>"; };
+		203D62A623054C3D0003F549 /* GSHSpreadAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHSpreadAnimationView.m; sourceTree = "<group>"; };
+		203D62A823054C3D0003F549 /* GSHScanAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHScanAnimationView.m; sourceTree = "<group>"; };
+		203D62A923054C3D0003F549 /* GSHScanAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHScanAnimationView.h; sourceTree = "<group>"; };
+		203D630223054D0B0003F549 /* TZMVoIPPushManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZMVoIPPushManager.h; sourceTree = "<group>"; };
+		203D630323054D0C0003F549 /* TZMVoIPPushManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZMVoIPPushManager.m; sourceTree = "<group>"; };
+		203D630623054D5C0003F549 /* JKCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKCircleView.h; sourceTree = "<group>"; };
+		203D630723054D5C0003F549 /* JKCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKCircleView.m; sourceTree = "<group>"; };
+		203D630923054DA80003F549 /* GSHChooseRoomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHChooseRoomCell.h; sourceTree = "<group>"; };
+		203D630A23054DA80003F549 /* GSHChooseRoomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHChooseRoomCell.m; sourceTree = "<group>"; };
+		203D630B23054DA90003F549 /* GSHChooseRoomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSHChooseRoomCell.xib; sourceTree = "<group>"; };
+		203D630E23054E220003F549 /* GSHDeviceInfoDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSHDeviceInfoDefines.h; sourceTree = "<group>"; };
+		203D63102305519C0003F549 /* TZMProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZMProgressBar.h; sourceTree = "<group>"; };
+		203D63112305519C0003F549 /* TZMProgressBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TZMProgressBar.xib; sourceTree = "<group>"; };
+		203D63122305519C0003F549 /* TZMProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZMProgressBar.m; sourceTree = "<group>"; };
+		203D6316230551D00003F549 /* SensorListSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SensorListSB.storyboard; sourceTree = "<group>"; };
+		203D6317230551D00003F549 /* GSHSensorDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHSensorDetailVC.m; sourceTree = "<group>"; };
+		203D6318230551D00003F549 /* GSHSensorListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHSensorListVC.m; sourceTree = "<group>"; };
+		203D6319230551D00003F549 /* GSHSensorDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHSensorDetailVC.h; sourceTree = "<group>"; };
+		203D631A230551D00003F549 /* GSHSensorListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHSensorListVC.h; sourceTree = "<group>"; };
+		203D631F230551EE0003F549 /* PopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverView.h; sourceTree = "<group>"; };
+		203D6320230551EE0003F549 /* PopoverViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverViewCell.h; sourceTree = "<group>"; };
+		203D6321230551EE0003F549 /* PopoverAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverAction.h; sourceTree = "<group>"; };
+		203D6322230551EE0003F549 /* PopoverAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverAction.m; sourceTree = "<group>"; };
+		203D6323230551EE0003F549 /* PopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverView.m; sourceTree = "<group>"; };
+		203D6324230551EE0003F549 /* PopoverViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverViewCell.m; sourceTree = "<group>"; };
+		203D63322305534E0003F549 /* TZMBrokenLineGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZMBrokenLineGraphView.h; sourceTree = "<group>"; };
+		203D63332305534E0003F549 /* TZMBrokenLineGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZMBrokenLineGraphView.m; sourceTree = "<group>"; };
+		203D6336230554E40003F549 /* GSHWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHWebViewController.h; sourceTree = "<group>"; };
+		203D6337230554E40003F549 /* GSHWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHWebViewController.m; sourceTree = "<group>"; };
+		203D63ED230556430003F549 /* GSHYingShiGaoJingListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHYingShiGaoJingListVC.h; sourceTree = "<group>"; };
+		203D63EE230556430003F549 /* GSHHuoDongJianCeSettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHHuoDongJianCeSettingVC.m; sourceTree = "<group>"; };
+		203D63EF230556430003F549 /* GSHYingshiSettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHYingshiSettingVC.m; sourceTree = "<group>"; };
+		203D63F0230556430003F549 /* GSHYingShiAlarmSoundModeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHYingShiAlarmSoundModeVC.h; sourceTree = "<group>"; };
+		203D63F1230556430003F549 /* GSHYingshiCameraToolSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GSHYingshiCameraToolSB.storyboard; sourceTree = "<group>"; };
+		203D63F2230556430003F549 /* GSHYingShiVideoListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHYingShiVideoListVC.h; sourceTree = "<group>"; };
+		203D63F3230556430003F549 /* GSHYingShiVideoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHYingShiVideoVC.h; sourceTree = "<group>"; };
+		203D63F4230556430003F549 /* GSHYingShiLiXianVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHYingShiLiXianVC.m; sourceTree = "<group>"; };
+		203D63F5230556430003F549 /* GSHYingshiDoorbellVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHYingshiDoorbellVC.h; sourceTree = "<group>"; };
+		203D63F6230556430003F549 /* GSHYingShiPlayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHYingShiPlayerVC.m; sourceTree = "<group>"; };
+		203D63F7230556430003F549 /* GSHYingShiCameraVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHYingShiCameraVC.m; sourceTree = "<group>"; };
+		203D63F8230556430003F549 /* GSHGaoJingDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHGaoJingDetailVC.m; sourceTree = "<group>"; };
+		203D63F9230556430003F549 /* GSHYingShiGaoJingListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHYingShiGaoJingListVC.m; sourceTree = "<group>"; };
+		203D63FA230556430003F549 /* GSHYingShiVideoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHYingShiVideoVC.m; sourceTree = "<group>"; };
+		203D63FB230556430003F549 /* GSHYingShiVideoListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHYingShiVideoListVC.m; sourceTree = "<group>"; };
+		203D63FC230556430003F549 /* GSHYingShiAlarmSoundModeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHYingShiAlarmSoundModeVC.m; sourceTree = "<group>"; };
+		203D63FD230556430003F549 /* GSHYingshiSettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHYingshiSettingVC.h; sourceTree = "<group>"; };
+		203D63FE230556430003F549 /* GSHHuoDongJianCeSettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHHuoDongJianCeSettingVC.h; sourceTree = "<group>"; };
+		203D63FF230556430003F549 /* GSHYingshiDoorbellVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHYingshiDoorbellVC.m; sourceTree = "<group>"; };
+		203D6400230556430003F549 /* GSHYingShiLiXianVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHYingShiLiXianVC.h; sourceTree = "<group>"; };
+		203D6401230556430003F549 /* GSHGaoJingDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHGaoJingDetailVC.h; sourceTree = "<group>"; };
+		203D6402230556430003F549 /* GSHYingShiCameraVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHYingShiCameraVC.h; sourceTree = "<group>"; };
+		203D6403230556430003F549 /* GSHYingShiPlayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHYingShiPlayerVC.h; sourceTree = "<group>"; };
+		203D6405230556430003F549 /* GSHThreeWaySwitchHandleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHThreeWaySwitchHandleVC.m; sourceTree = "<group>"; };
+		203D6407230556430003F549 /* GSHNewWindHandleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHNewWindHandleVC.h; sourceTree = "<group>"; };
+		203D6408230556430003F549 /* GSHUnderFloorHeatSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GSHUnderFloorHeatSB.storyboard; sourceTree = "<group>"; };
+		203D6409230556430003F549 /* GSHDeviceSocketHandleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHDeviceSocketHandleVC.m; sourceTree = "<group>"; };
+		203D640A230556430003F549 /* GSHDeviceSocketHandleSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GSHDeviceSocketHandleSB.storyboard; sourceTree = "<group>"; };
+		203D640B230556430003F549 /* GSHTwoWayCurtainHandleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHTwoWayCurtainHandleVC.m; sourceTree = "<group>"; };
+		203D640C230556430003F549 /* GSHUnderFloorHeatVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHUnderFloorHeatVC.h; sourceTree = "<group>"; };
+		203D640D230556430003F549 /* GSHAirConditionerHandleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHAirConditionerHandleVC.h; sourceTree = "<group>"; };
+		203D640E230556430003F549 /* GSHTwoWayCurtainHandleSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GSHTwoWayCurtainHandleSB.storyboard; sourceTree = "<group>"; };
+		203D640F230556430003F549 /* GSHNewWindHandleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHNewWindHandleVC.m; sourceTree = "<group>"; };
+		203D6411230556430003F549 /* GSHThreeWaySwitchHandleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHThreeWaySwitchHandleVC.h; sourceTree = "<group>"; };
+		203D6413230556430003F549 /* GSHNewWindHandleSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GSHNewWindHandleSB.storyboard; sourceTree = "<group>"; };
+		203D6414230556430003F549 /* GSHAirConditionerHandleSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GSHAirConditionerHandleSB.storyboard; sourceTree = "<group>"; };
+		203D6415230556430003F549 /* GSHDeviceSocketHandleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHDeviceSocketHandleVC.h; sourceTree = "<group>"; };
+		203D6416230556430003F549 /* GSHThreeWaySwitchHandleSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GSHThreeWaySwitchHandleSB.storyboard; sourceTree = "<group>"; };
+		203D6417230556430003F549 /* GSHTwoWayCurtainHandleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHTwoWayCurtainHandleVC.h; sourceTree = "<group>"; };
+		203D6418230556430003F549 /* GSHAirConditionerHandleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHAirConditionerHandleVC.m; sourceTree = "<group>"; };
+		203D6419230556430003F549 /* GSHUnderFloorHeatVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHUnderFloorHeatVC.m; sourceTree = "<group>"; };
+		203D641A230556430003F549 /* GSHDeviceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHDeviceVC.m; sourceTree = "<group>"; };
+		203D641C230556430003F549 /* GSHScenePanelHandleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHScenePanelHandleVC.m; sourceTree = "<group>"; };
+		203D641D230556430003F549 /* GSHChooseSceneListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHChooseSceneListVC.h; sourceTree = "<group>"; };
+		203D641E230556430003F549 /* GSHScenePanelEditVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHScenePanelEditVC.h; sourceTree = "<group>"; };
+		203D641F230556430003F549 /* GSHChooseSceneListSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GSHChooseSceneListSB.storyboard; sourceTree = "<group>"; };
+		203D6420230556430003F549 /* GSHScenePanelHandleSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GSHScenePanelHandleSB.storyboard; sourceTree = "<group>"; };
+		203D6421230556430003F549 /* GSHChooseSceneListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHChooseSceneListVC.m; sourceTree = "<group>"; };
+		203D6422230556430003F549 /* GSHScenePanelHandleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHScenePanelHandleVC.h; sourceTree = "<group>"; };
+		203D6423230556430003F549 /* GSHScenePanelEditSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GSHScenePanelEditSB.storyboard; sourceTree = "<group>"; };
+		203D6424230556430003F549 /* GSHScenePanelEditVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHScenePanelEditVC.m; sourceTree = "<group>"; };
+		203D6426230556430003F549 /* GSHInfraredVirtualDeviceAirConditionerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHInfraredVirtualDeviceAirConditionerVC.h; sourceTree = "<group>"; };
+		203D6428230556430003F549 /* GSHTVSeleAlertCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHTVSeleAlertCell.m; sourceTree = "<group>"; };
+		203D6429230556430003F549 /* GSHTVSeleAlertVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHTVSeleAlertVC.h; sourceTree = "<group>"; };
+		203D642A230556430003F549 /* GSHTVSeleAlertVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSHTVSeleAlertVC.xib; sourceTree = "<group>"; };
+		203D642B230556430003F549 /* GSHTVSeleAlertCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSHTVSeleAlertCell.xib; sourceTree = "<group>"; };
+		203D642C230556430003F549 /* GSHTVSeleAlertCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHTVSeleAlertCell.h; sourceTree = "<group>"; };
+		203D642D230556430003F549 /* GSHTVSeleAlertVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHTVSeleAlertVC.m; sourceTree = "<group>"; };
+		203D642E230556430003F549 /* GSHInfraredVirtualDeviceTVVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHInfraredVirtualDeviceTVVC.h; sourceTree = "<group>"; };
+		203D642F230556430003F549 /* GSHInfraredControllerVerifyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHInfraredControllerVerifyVC.m; sourceTree = "<group>"; };
+		203D6430230556430003F549 /* GSHInfraredControllerEditVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHInfraredControllerEditVC.h; sourceTree = "<group>"; };
+		203D6431230556430003F549 /* GSHInfraredControllerTypeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHInfraredControllerTypeVC.m; sourceTree = "<group>"; };
+		203D6432230556430003F549 /* GSHInfraredControllerBrandVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHInfraredControllerBrandVC.h; sourceTree = "<group>"; };
+		203D6433230556430003F549 /* GSHInfraredControllerInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHInfraredControllerInfoVC.m; sourceTree = "<group>"; };
+		203D6434230556430003F549 /* GSHInfraredVirtualDeviceSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GSHInfraredVirtualDeviceSB.storyboard; sourceTree = "<group>"; };
+		203D6435230556430003F549 /* GSHInfraredVirtualDeviceTVVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHInfraredVirtualDeviceTVVC.m; sourceTree = "<group>"; };
+		203D6436230556430003F549 /* GSHInfraredVirtualDeviceAirConditionerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHInfraredVirtualDeviceAirConditionerVC.m; sourceTree = "<group>"; };
+		203D6437230556430003F549 /* GSHInfraredControllerEditVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHInfraredControllerEditVC.m; sourceTree = "<group>"; };
+		203D6438230556430003F549 /* GSHInfraredControllerVerifyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHInfraredControllerVerifyVC.h; sourceTree = "<group>"; };
+		203D6439230556430003F549 /* GSHInfraredControllerSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GSHInfraredControllerSB.storyboard; sourceTree = "<group>"; };
+		203D643A230556430003F549 /* GSHInfraredControllerBrandVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHInfraredControllerBrandVC.m; sourceTree = "<group>"; };
+		203D643B230556430003F549 /* GSHInfraredControllerTypeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHInfraredControllerTypeVC.h; sourceTree = "<group>"; };
+		203D643C230556430003F549 /* GSHInfraredControllerInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHInfraredControllerInfoVC.h; sourceTree = "<group>"; };
+		203D643E230556430003F549 /* GSHAirConditionerTransverterEditVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHAirConditionerTransverterEditVC.m; sourceTree = "<group>"; };
+		203D643F230556430003F549 /* GSHAirConditionerTransverterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHAirConditionerTransverterVC.m; sourceTree = "<group>"; };
+		203D6440230556430003F549 /* GSHAirConditionerTransverterEditVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHAirConditionerTransverterEditVC.h; sourceTree = "<group>"; };
+		203D6441230556430003F549 /* GSHAirConditionerTransverterSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GSHAirConditionerTransverterSB.storyboard; sourceTree = "<group>"; };
+		203D6443230556430003F549 /* GSHAirConditionerTransverterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHAirConditionerTransverterVC.h; sourceTree = "<group>"; };
+		203D6444230556430003F549 /* GSHDeviceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHDeviceVC.h; sourceTree = "<group>"; };
+		203D6446230556430003F549 /* GSHSensorGroupTypeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHSensorGroupTypeVC.h; sourceTree = "<group>"; };
+		203D6447230556430003F549 /* GSHSensorGroupSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GSHSensorGroupSB.storyboard; sourceTree = "<group>"; };
+		203D6448230556430003F549 /* GSHSensorGroupVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHSensorGroupVC.m; sourceTree = "<group>"; };
+		203D6449230556430003F549 /* GSHSensorGroupEditVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHSensorGroupEditVC.m; sourceTree = "<group>"; };
+		203D644A230556430003F549 /* GSHSensorGroupVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHSensorGroupVC.h; sourceTree = "<group>"; };
+		203D644B230556430003F549 /* GSHSensorGroupTypeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHSensorGroupTypeVC.m; sourceTree = "<group>"; };
+		203D644C230556430003F549 /* GSHSensorGroupEditVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHSensorGroupEditVC.h; sourceTree = "<group>"; };
+		203D644E230556430003F549 /* GSHAlarmSensorSetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHAlarmSensorSetVC.h; sourceTree = "<group>"; };
+		203D644F230556430003F549 /* GSHHumitureSensorSetSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GSHHumitureSensorSetSB.storyboard; sourceTree = "<group>"; };
+		203D6450230556430003F549 /* GSHGateMagnetismSetSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GSHGateMagnetismSetSB.storyboard; sourceTree = "<group>"; };
+		203D6451230556430003F549 /* GSHAirConditionerSetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHAirConditionerSetVC.h; sourceTree = "<group>"; };
+		203D6452230556430003F549 /* GSHAlarmSensorSetSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GSHAlarmSensorSetSB.storyboard; sourceTree = "<group>"; };
+		203D6453230556430003F549 /* GSHAirBoxSensorSetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHAirBoxSensorSetVC.h; sourceTree = "<group>"; };
+		203D6454230556430003F549 /* GSHHumitureSensorSetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHHumitureSensorSetVC.h; sourceTree = "<group>"; };
+		203D6455230556430003F549 /* GSHAirBoxSensorSetSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GSHAirBoxSensorSetSB.storyboard; sourceTree = "<group>"; };
+		203D6456230556430003F549 /* GSHGateMagnetismSetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHGateMagnetismSetVC.h; sourceTree = "<group>"; };
+		203D6457230556430003F549 /* GSHAlarmSensorSetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHAlarmSensorSetVC.m; sourceTree = "<group>"; };
+		203D6458230556430003F549 /* GSHAirBoxSensorSetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHAirBoxSensorSetVC.m; sourceTree = "<group>"; };
+		203D6459230556430003F549 /* GSHAirConditionerSetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHAirConditionerSetVC.m; sourceTree = "<group>"; };
+		203D645A230556430003F549 /* GSHAirConditionerSetSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GSHAirConditionerSetSB.storyboard; sourceTree = "<group>"; };
+		203D645B230556430003F549 /* GSHHumitureSensorSetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHHumitureSensorSetVC.m; sourceTree = "<group>"; };
+		203D645C230556430003F549 /* GSHGateMagnetismSetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHGateMagnetismSetVC.m; sourceTree = "<group>"; };
+		203D649F23055B3A0003F549 /* GSHAddSceneVCViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHAddSceneVCViewModel.m; sourceTree = "<group>"; };
+		203D64A023055B3A0003F549 /* GSHAddSceneVCViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHAddSceneVCViewModel.h; sourceTree = "<group>"; };
+		203D64A323055B3A0003F549 /* GSHVoiceKeyWordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHVoiceKeyWordVC.m; sourceTree = "<group>"; };
+		203D64A423055B3A0003F549 /* GSHCollectionTagsFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHCollectionTagsFlowLayout.h; sourceTree = "<group>"; };
+		203D64A523055B3A0003F549 /* GSHVoiceKeyWordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHVoiceKeyWordVC.h; sourceTree = "<group>"; };
+		203D64A623055B3A0003F549 /* GSHCollectionTagsFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHCollectionTagsFlowLayout.m; sourceTree = "<group>"; };
+		203D64A723055B3A0003F549 /* GSHSceneBackgroundVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHSceneBackgroundVC.m; sourceTree = "<group>"; };
+		203D64A823055B3A0003F549 /* GSHAddSceneVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHAddSceneVC.h; sourceTree = "<group>"; };
+		203D64A923055B3A0003F549 /* GSHSceneEditVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHSceneEditVC.m; sourceTree = "<group>"; };
+		203D64AE23055B3A0003F549 /* GSHSceneVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHSceneVC.h; sourceTree = "<group>"; };
+		203D64AF23055B3A0003F549 /* GSHAddSceneVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHAddSceneVC.m; sourceTree = "<group>"; };
+		203D64B023055B3A0003F549 /* GSHSceneBackgroundVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHSceneBackgroundVC.h; sourceTree = "<group>"; };
+		203D64B123055B3A0003F549 /* GSHSceneEditVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHSceneEditVC.h; sourceTree = "<group>"; };
+		203D64B323055B3A0003F549 /* GSHChooseDeviceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHChooseDeviceVC.m; sourceTree = "<group>"; };
+		203D64B423055B3A0003F549 /* GSHChooseDeviceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHChooseDeviceVC.h; sourceTree = "<group>"; };
+		203D64B523055B3A0003F549 /* GSHSceneVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHSceneVC.m; sourceTree = "<group>"; };
+		203D64B823055B3A0003F549 /* GSHVoiceKeyWordTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHVoiceKeyWordTagCell.h; sourceTree = "<group>"; };
+		203D64B923055B3A0003F549 /* GSHVoiceKeyWordHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHVoiceKeyWordHeadView.m; sourceTree = "<group>"; };
+		203D64BA23055B3A0003F549 /* GSHVoiceKeyWordHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHVoiceKeyWordHeadView.h; sourceTree = "<group>"; };
+		203D64BB23055B3A0003F549 /* GSHVoiceKeyWordHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSHVoiceKeyWordHeadView.xib; sourceTree = "<group>"; };
+		203D64BC23055B3A0003F549 /* GSHVoiceKeyWordTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHVoiceKeyWordTagCell.m; sourceTree = "<group>"; };
+		203D64BE23055B3A0003F549 /* GSHSceneCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHSceneCell.m; sourceTree = "<group>"; };
+		203D64C023055B3B0003F549 /* GSHSceneCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSHSceneCell.xib; sourceTree = "<group>"; };
+		203D64C223055B3B0003F549 /* GSHSceneBackCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHSceneBackCell.m; sourceTree = "<group>"; };
+		203D64C323055B3B0003F549 /* GSHAddSceneCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSHAddSceneCell.xib; sourceTree = "<group>"; };
+		203D64C423055B3B0003F549 /* GSHAddSceneCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHAddSceneCell.h; sourceTree = "<group>"; };
+		203D64C523055B3B0003F549 /* GSHSceneBackCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHSceneBackCell.h; sourceTree = "<group>"; };
+		203D64C623055B3B0003F549 /* GSHAddSceneCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHAddSceneCell.m; sourceTree = "<group>"; };
+		203D64C723055B3B0003F549 /* GSHSceneBackCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSHSceneBackCell.xib; sourceTree = "<group>"; };
+		203D64C823055B3B0003F549 /* GSHSceneCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHSceneCell.h; sourceTree = "<group>"; };
+		203D64CB23055B3B0003F549 /* GSHChooseDeviceListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHChooseDeviceListCell.h; sourceTree = "<group>"; };
+		203D64CC23055B3B0003F549 /* GSHChooseDeviceListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSHChooseDeviceListCell.xib; sourceTree = "<group>"; };
+		203D64CD23055B3B0003F549 /* GSHChooseDeviceListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHChooseDeviceListCell.m; sourceTree = "<group>"; };
+		203D64D023055B3B0003F549 /* GSHAddAutoVCViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHAddAutoVCViewModel.m; sourceTree = "<group>"; };
+		203D64D123055B3B0003F549 /* GSHAddAutoVCViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHAddAutoVCViewModel.h; sourceTree = "<group>"; };
+		203D64D323055B3B0003F549 /* GSHAutomateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHAutomateVC.m; sourceTree = "<group>"; };
+		203D64D423055B3B0003F549 /* GSHAutomateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHAutomateVC.h; sourceTree = "<group>"; };
+		203D64D623055B3B0003F549 /* GSHChooseRepeatCountVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHChooseRepeatCountVC.h; sourceTree = "<group>"; };
+		203D64D723055B3B0003F549 /* GSHAutoEffectTimeSetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHAutoEffectTimeSetVC.m; sourceTree = "<group>"; };
+		203D64D823055B3B0003F549 /* GSHAddAutoChooseDeviceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHAddAutoChooseDeviceVC.h; sourceTree = "<group>"; };
+		203D64D923055B3B0003F549 /* GSHAddTriggerConditionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHAddTriggerConditionVC.m; sourceTree = "<group>"; };
+		203D64DA23055B3B0003F549 /* GSHAddAutoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHAddAutoVC.m; sourceTree = "<group>"; };
+		203D64DB23055B3B0003F549 /* GSHAddAutomationSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GSHAddAutomationSB.storyboard; sourceTree = "<group>"; };
+		203D64DC23055B3B0003F549 /* GSHAutoTimeSetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHAutoTimeSetVC.h; sourceTree = "<group>"; };
+		203D64DE23055B3B0003F549 /* GSHAutoAddAutoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHAutoAddAutoVC.h; sourceTree = "<group>"; };
+		203D64DF23055B3B0003F549 /* GSHAutoAddActionSceneVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHAutoAddActionSceneVC.m; sourceTree = "<group>"; };
+		203D64E023055B3B0003F549 /* GSHAutoAddActionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHAutoAddActionVC.h; sourceTree = "<group>"; };
+		203D64E123055B3B0003F549 /* GSHAutoAddActionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHAutoAddActionVC.m; sourceTree = "<group>"; };
+		203D64E223055B3B0003F549 /* GSHAutoAddActionSceneVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHAutoAddActionSceneVC.h; sourceTree = "<group>"; };
+		203D64E323055B3B0003F549 /* GSHAutoAddAutoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHAutoAddAutoVC.m; sourceTree = "<group>"; };
+		203D64E423055B3B0003F549 /* GSHAddAutoAction.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GSHAddAutoAction.storyboard; sourceTree = "<group>"; };
+		203D64E523055B3B0003F549 /* GSHChooseRepeatCountVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHChooseRepeatCountVC.m; sourceTree = "<group>"; };
+		203D64E623055B3B0003F549 /* GSHAddAutoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHAddAutoVC.h; sourceTree = "<group>"; };
+		203D64E723055B3B0003F549 /* GSHAddTriggerConditionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHAddTriggerConditionVC.h; sourceTree = "<group>"; };
+		203D64E823055B3B0003F549 /* GSHAddAutoChooseDeviceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHAddAutoChooseDeviceVC.m; sourceTree = "<group>"; };
+		203D64E923055B3B0003F549 /* GSHAutoEffectTimeSetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHAutoEffectTimeSetVC.h; sourceTree = "<group>"; };
+		203D64EA23055B3B0003F549 /* GSHAutoTimeSetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHAutoTimeSetVC.m; sourceTree = "<group>"; };
+		203D64EC23055B3B0003F549 /* GSHAutomateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHAutomateCell.m; sourceTree = "<group>"; };
+		203D64ED23055B3B0003F549 /* GSHAutomateCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSHAutomateCell.xib; sourceTree = "<group>"; };
+		203D64EE23055B3B0003F549 /* GSHAutomateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHAutomateCell.h; sourceTree = "<group>"; };
+		203D651623055C060003F549 /* MGSwipeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSwipeTableCell.m; sourceTree = "<group>"; };
+		203D651723055C060003F549 /* MGSwipeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSwipeButton.h; sourceTree = "<group>"; };
+		203D651823055C060003F549 /* MGSwipeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSwipeTableCell.h; sourceTree = "<group>"; };
+		203D651923055C060003F549 /* MGSwipeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSwipeButton.m; sourceTree = "<group>"; };
+		203D651D23055C610003F549 /* GSHGatewayCopyRestoreVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHGatewayCopyRestoreVC.m; sourceTree = "<group>"; };
+		203D651E23055C610003F549 /* GSHGateWaySettingSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GSHGateWaySettingSB.storyboard; sourceTree = "<group>"; };
+		203D651F23055C610003F549 /* GSHGateWayUpdateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHGateWayUpdateVC.h; sourceTree = "<group>"; };
+		203D652023055C610003F549 /* GSHGateWayUpdateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHGateWayUpdateVC.m; sourceTree = "<group>"; };
+		203D652123055C610003F549 /* GSHGatewayCopyRestoreVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHGatewayCopyRestoreVC.h; sourceTree = "<group>"; };
+		203D652623055C990003F549 /* GSHGWSettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHGWSettingVC.m; sourceTree = "<group>"; };
+		203D652723055C990003F549 /* GSHAboutVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHAboutVC.h; sourceTree = "<group>"; };
+		203D652823055C990003F549 /* GSHSettingSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GSHSettingSB.storyboard; sourceTree = "<group>"; };
+		203D652923055C990003F549 /* GSHGWSettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHGWSettingVC.h; sourceTree = "<group>"; };
+		203D652A23055C990003F549 /* GSHAboutVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHAboutVC.m; sourceTree = "<group>"; };
+		203D652F23055CD50003F549 /* YeeBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YeeBadgeView.h; sourceTree = "<group>"; };
+		203D653023055CD50003F549 /* UITabBarItem+YeeBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+YeeBadge.h"; sourceTree = "<group>"; };
+		203D653123055CD50003F549 /* UIBarButtonItem+YeeBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+YeeBadge.h"; sourceTree = "<group>"; };
+		203D653223055CD50003F549 /* UIView+YeeBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YeeBadge.h"; sourceTree = "<group>"; };
+		203D653323055CD50003F549 /* YeeBadgeViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YeeBadgeViewHeader.h; sourceTree = "<group>"; };
+		203D653423055CD50003F549 /* YeeBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YeeBadgeView.m; sourceTree = "<group>"; };
+		203D653523055CD50003F549 /* UITabBarItem+YeeBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+YeeBadge.m"; sourceTree = "<group>"; };
+		203D653623055CD50003F549 /* YeeBadgeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YeeBadgeProtocol.h; sourceTree = "<group>"; };
+		203D653723055CD50003F549 /* UIBarButtonItem+YeeBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+YeeBadge.m"; sourceTree = "<group>"; };
+		203D653823055CD50003F549 /* UIView+YeeBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YeeBadge.m"; sourceTree = "<group>"; };
+		203D653E23055CF20003F549 /* GSHDropDownMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHDropDownMenuView.h; sourceTree = "<group>"; };
+		203D653F23055CF20003F549 /* GSHDropDownMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSHDropDownMenuCell.xib; sourceTree = "<group>"; };
+		203D654023055CF20003F549 /* GSHDropDownMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHDropDownMenuCell.h; sourceTree = "<group>"; };
+		203D654123055CF20003F549 /* GSHDropDownMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHDropDownMenuView.m; sourceTree = "<group>"; };
+		203D654223055CF20003F549 /* GSHDropDownMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHDropDownMenuCell.m; sourceTree = "<group>"; };
+		203D654823068C390003F549 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		203D654C2306935F0003F549 /* GSHSensorParametersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHSensorParametersView.m; sourceTree = "<group>"; };
+		203D654D2306935F0003F549 /* GSHHomeSensorTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHHomeSensorTopView.m; sourceTree = "<group>"; };
+		203D654E2306935F0003F549 /* GSHHomeSensorTopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSHHomeSensorTopView.xib; sourceTree = "<group>"; };
+		203D654F2306935F0003F549 /* GSHSensorParametersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHSensorParametersView.h; sourceTree = "<group>"; };
+		203D65502306935F0003F549 /* GSHHomeSensorTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHHomeSensorTopView.h; sourceTree = "<group>"; };
 		5B3F2FB223350C68E8F0DC9E /* Pods-GSHUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSHUIKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-GSHUIKit_Example/Pods-GSHUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GSHUIKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSHUIKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -273,46 +777,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2026078D230A39F1000FA259 /* Defense */ = {
+			isa = PBXGroup;
+			children = (
+				2026078F230A39F1000FA259 /* GSHDefenseSB.storyboard */,
+				202607A0230A39F1000FA259 /* GSHDefenseListVC.h */,
+				20260793230A39F1000FA259 /* GSHDefenseListVC.m */,
+				20260791230A39F1000FA259 /* GSHDefenseAddVC.h */,
+				20260796230A39F1000FA259 /* GSHDefenseAddVC.m */,
+				20260794230A39F1000FA259 /* GSHDefenseMessageVC.h */,
+				2026078E230A39F1000FA259 /* GSHDefenseMessageVC.m */,
+				20260795230A39F1000FA259 /* GSHDefenseMeteChooseVC.h */,
+				20260792230A39F1000FA259 /* GSHDefenseMeteChooseVC.m */,
+				20260797230A39F1000FA259 /* GSHDefensePlanChooseVC.h */,
+				20260790230A39F1000FA259 /* GSHDefensePlanChooseVC.m */,
+				20260798230A39F1000FA259 /* DefensePlan */,
+			);
+			path = Defense;
+			sourceTree = "<group>";
+		};
+		20260798230A39F1000FA259 /* DefensePlan */ = {
+			isa = PBXGroup;
+			children = (
+				20260799230A39F1000FA259 /* GSHDefensePlanSB.storyboard */,
+				2026079B230A39F1000FA259 /* GSHDefensePlanListVC.m */,
+				2026079F230A39F1000FA259 /* GSHDefensePlanListVC.h */,
+				2026079A230A39F1000FA259 /* GSHDefenseAddPlanVC.h */,
+				2026079D230A39F1000FA259 /* GSHDefenseAddPlanVC.m */,
+				2026079C230A39F1000FA259 /* GSHDefensePlanTimeSetVC.h */,
+				2026079E230A39F1000FA259 /* GSHDefensePlanTimeSetVC.m */,
+			);
+			path = DefensePlan;
+			sourceTree = "<group>";
+		};
+		202607AB230A3C20000FA259 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				202607B4230A3C20000FA259 /* GSHMessageSB.storyboard */,
+				202607AC230A3C20000FA259 /* GSHMessageVC.m */,
+				202607B3230A3C20000FA259 /* GSHMessageVC.h */,
+				202607B5230A3C20000FA259 /* GSHMessageNotiSetVC.h */,
+				202607AD230A3C20000FA259 /* GSHMessageNotiSetVC.m */,
+				202607B6230A3C20000FA259 /* GSHMessageTableViewVC.h */,
+				202607AE230A3C20000FA259 /* GSHMessageTableViewVC.m */,
+				202607AF230A3C20000FA259 /* Cell */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		202607AF230A3C20000FA259 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				202607B1230A3C20000FA259 /* GSHMessageCell.xib */,
+				202607B0230A3C20000FA259 /* GSHMessageCell.h */,
+				202607B2230A3C20000FA259 /* GSHMessageCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		202607BD230A3CB6000FA259 /* ZJScrollPageView */ = {
+			isa = PBXGroup;
+			children = (
+				202607C2230A3CB6000FA259 /* ZJScrollPageViewDelegate.h */,
+				202607CE230A3CB6000FA259 /* ZJTitleView.h */,
+				202607C4230A3CB6000FA259 /* ZJTitleView.m */,
+				202607BE230A3CB6000FA259 /* ZJContentView.h */,
+				202607C8230A3CB6000FA259 /* ZJContentView.m */,
+				202607C0230A3CB6000FA259 /* ZJCollectionView.h */,
+				202607C9230A3CB6000FA259 /* ZJCollectionView.m */,
+				202607C1230A3CB6000FA259 /* ZJScrollSegmentView.h */,
+				202607CB230A3CB6000FA259 /* ZJScrollSegmentView.m */,
+				202607C6230A3CB6000FA259 /* ZJScrollPageView.h */,
+				202607CC230A3CB6000FA259 /* ZJScrollPageView.m */,
+				202607C3230A3CB6000FA259 /* ZJSegmentStyle.h */,
+				202607CA230A3CB6000FA259 /* ZJSegmentStyle.m */,
+				202607C7230A3CB6000FA259 /* UIView+ZJFrame.h */,
+				202607BF230A3CB6000FA259 /* UIView+ZJFrame.m */,
+				202607CD230A3CB6000FA259 /* UIViewController+ZJScrollPageController.h */,
+				202607C5230A3CB6000FA259 /* UIViewController+ZJScrollPageController.m */,
+			);
+			path = ZJScrollPageView;
+			sourceTree = "<group>";
+		};
 		203D617B2303EBF00003F549 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				6003F59B195388D20070C39A /* GSHUIKit-Prefix.pch */,
+				203D630E23054E220003F549 /* GSHDeviceInfoDefines.h */,
+				202607AB230A3C20000FA259 /* Message */,
+				2026078D230A39F1000FA259 /* Defense */,
+				203D64CE23055B3B0003F549 /* Automate */,
+				203D649D23055B3A0003F549 /* Scene */,
 				203D61B02303F4560003F549 /* Public */,
-				203D617C2303F2B00003F549 /* FamilyModule */,
+				203D6248230540CA0003F549 /* Device */,
+				203D617C2303F2B00003F549 /* Family */,
+				203D6291230549EB0003F549 /* GW */,
+				203D652523055C990003F549 /* Setting */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
 		};
-		203D617C2303F2B00003F549 /* FamilyModule */ = {
+		203D617C2303F2B00003F549 /* Family */ = {
 			isa = PBXGroup;
 			children = (
-				203D617D2303F2B00003F549 /* GSHFamilyTransferVC.m */,
-				203D617E2303F2B00003F549 /* GSHFamilyManagerVC.m */,
-				203D617F2303F2B00003F549 /* GSHFamilyListVC.m */,
 				203D61802303F2B00003F549 /* GSHFamilySB.storyboard */,
-				203D61812303F2B00003F549 /* GSHCreateFamilyVC.h */,
 				203D61822303F2B00003F549 /* GSHFamilyListVC.h */,
-				203D61832303F2B00003F549 /* GSHFamilyManagerVC.h */,
-				203D61842303F2B00003F549 /* GSHFamilyTransferVC.h */,
-				203D61852303F2B00003F549 /* MemberManager */,
+				203D617F2303F2B00003F549 /* GSHFamilyListVC.m */,
+				203D61812303F2B00003F549 /* GSHCreateFamilyVC.h */,
 				203D61912303F2B00003F549 /* GSHCreateFamilyVC.m */,
+				203D61832303F2B00003F549 /* GSHFamilyManagerVC.h */,
+				203D617E2303F2B00003F549 /* GSHFamilyManagerVC.m */,
+				203D61842303F2B00003F549 /* GSHFamilyTransferVC.h */,
+				203D617D2303F2B00003F549 /* GSHFamilyTransferVC.m */,
+				203D61852303F2B00003F549 /* MemberManager */,
 				203D61922303F2B00003F549 /* RoomManager */,
 			);
-			path = FamilyModule;
+			path = Family;
 			sourceTree = "<group>";
 		};
 		203D61852303F2B00003F549 /* MemberManager */ = {
 			isa = PBXGroup;
 			children = (
-				203D61862303F2B00003F549 /* GSHFamilyMemberAuthorityVC.h */,
-				203D61872303F2B00003F549 /* GSHFamilyMemberFloorAuthorityVC.m */,
-				203D61882303F2B00003F549 /* GSHFamilyMemberInfoVC.m */,
-				203D61892303F2B00003F549 /* GSHFamilyMemberListVC.m */,
-				203D618A2303F2B00003F549 /* GSHFamilyMemberRoomAuthorityVC.h */,
-				203D618B2303F2B00003F549 /* GSHFamilyMemberAuthorityVC.m */,
-				203D618C2303F2B00003F549 /* GSHFamilyMemberFloorAuthorityVC.h */,
-				203D618D2303F2B00003F549 /* GSHFamilyMemberInfoVC.h */,
 				203D618E2303F2B00003F549 /* GSHMemberManagerSB.storyboard */,
 				203D618F2303F2B00003F549 /* GSHFamilyMemberListVC.h */,
+				203D61892303F2B00003F549 /* GSHFamilyMemberListVC.m */,
+				203D618D2303F2B00003F549 /* GSHFamilyMemberInfoVC.h */,
+				203D61882303F2B00003F549 /* GSHFamilyMemberInfoVC.m */,
+				203D61862303F2B00003F549 /* GSHFamilyMemberAuthorityVC.h */,
+				203D618B2303F2B00003F549 /* GSHFamilyMemberAuthorityVC.m */,
+				203D618C2303F2B00003F549 /* GSHFamilyMemberFloorAuthorityVC.h */,
+				203D61872303F2B00003F549 /* GSHFamilyMemberFloorAuthorityVC.m */,
+				203D618A2303F2B00003F549 /* GSHFamilyMemberRoomAuthorityVC.h */,
 				203D61902303F2B00003F549 /* GSHFamilyMemberRoomAuthorityVC.m */,
 			);
 			path = MemberManager;
@@ -321,17 +916,17 @@
 		203D61922303F2B00003F549 /* RoomManager */ = {
 			isa = PBXGroup;
 			children = (
-				203D61932303F2B00003F549 /* GSHOptionRoomBgVC.h */,
-				203D61942303F2B00003F549 /* GSHRoomEditVC.h */,
-				203D61952303F2B00003F549 /* GSHRoomRankVC.h */,
-				203D61962303F2B00003F549 /* GSHRoomManagerVC.m */,
-				203D61972303F2B00003F549 /* GSHFloorEditVC.m */,
-				203D61982303F2B00003F549 /* GSHOptionRoomBgVC.m */,
-				203D61992303F2B00003F549 /* GSHRoomEditVC.m */,
 				203D619A2303F2B00003F549 /* GSHRoomManagerSB.storyboard */,
 				203D619B2303F2B00003F549 /* GSHRoomManagerVC.h */,
-				203D619C2303F2B00003F549 /* GSHRoomRankVC.m */,
+				203D61962303F2B00003F549 /* GSHRoomManagerVC.m */,
 				203D619D2303F2B00003F549 /* GSHFloorEditVC.h */,
+				203D61972303F2B00003F549 /* GSHFloorEditVC.m */,
+				203D61942303F2B00003F549 /* GSHRoomEditVC.h */,
+				203D61992303F2B00003F549 /* GSHRoomEditVC.m */,
+				203D61932303F2B00003F549 /* GSHOptionRoomBgVC.h */,
+				203D61982303F2B00003F549 /* GSHOptionRoomBgVC.m */,
+				203D61952303F2B00003F549 /* GSHRoomRankVC.h */,
+				203D619C2303F2B00003F549 /* GSHRoomRankVC.m */,
 			);
 			path = RoomManager;
 			sourceTree = "<group>";
@@ -339,12 +934,9 @@
 		203D61B02303F4560003F549 /* Public */ = {
 			isa = PBXGroup;
 			children = (
-				203D61D52303F95C0003F549 /* PickerView */,
-				203D61CF2303F88C0003F549 /* GSHQRCodeScanningVC */,
-				203D61C92303F7060003F549 /* GSHInputTextVC */,
+				203D654723064C020003F549 /* VC */,
+				203D654623064BA20003F549 /* View */,
 				203D61C52303F6A70003F549 /* GSHManager */,
-				203D61B52303F6600003F549 /* SVProgressHUD */,
-				203D61B12303F4560003F549 /* JXMovableCellTableView */,
 			);
 			path = Public;
 			sourceTree = "<group>";
@@ -361,15 +953,15 @@
 		203D61B52303F6600003F549 /* SVProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
+				203D61BA2303F6600003F549 /* SVProgressHUD-Prefix.pch */,
+				203D61BE2303F6600003F549 /* SVProgressHUD.bundle */,
+				203D654823068C390003F549 /* SVProgressHUD.h */,
+				203D61BC2303F6600003F549 /* SVProgressHUD.m */,
+				203D61BB2303F6600003F549 /* SVRadialGradientLayer.h */,
 				203D61B62303F6600003F549 /* SVRadialGradientLayer.m */,
 				203D61B72303F6600003F549 /* SVIndefiniteAnimatedView.h */,
-				203D61B82303F6600003F549 /* SVProgressHUD.h */,
-				203D61B92303F6600003F549 /* SVProgressAnimatedView.m */,
-				203D61BA2303F6600003F549 /* SVProgressHUD-Prefix.pch */,
-				203D61BB2303F6600003F549 /* SVRadialGradientLayer.h */,
-				203D61BC2303F6600003F549 /* SVProgressHUD.m */,
 				203D61BD2303F6600003F549 /* SVIndefiniteAnimatedView.m */,
-				203D61BE2303F6600003F549 /* SVProgressHUD.bundle */,
+				203D61B92303F6600003F549 /* SVProgressAnimatedView.m */,
 				203D61BF2303F6600003F549 /* SVProgressAnimatedView.h */,
 			);
 			path = SVProgressHUD;
@@ -378,9 +970,9 @@
 		203D61C52303F6A70003F549 /* GSHManager */ = {
 			isa = PBXGroup;
 			children = (
-				203D623F2303FA310003F549 /* GSHWeChatStyleActionSheetView */,
-				203D61C62303F6A70003F549 /* GSHAlertManager.h */,
-				203D61C72303F6A70003F549 /* GSHAlertManager.m */,
+				203D61D52303F95C0003F549 /* GSHPickerViewManager */,
+				203D654A23068DD50003F549 /* TZMVoIPPushManager */,
+				203D654923068DA00003F549 /* GSHAlertManager */,
 			);
 			path = GSHManager;
 			sourceTree = "<group>";
@@ -388,9 +980,9 @@
 		203D61C92303F7060003F549 /* GSHInputTextVC */ = {
 			isa = PBXGroup;
 			children = (
-				203D61CA2303F7060003F549 /* GSHInputTextVC.m */,
 				203D61CB2303F7060003F549 /* GSHInputTextVC.xib */,
 				203D61CC2303F7060003F549 /* GSHInputTextVC.h */,
+				203D61CA2303F7060003F549 /* GSHInputTextVC.m */,
 			);
 			path = GSHInputTextVC;
 			sourceTree = "<group>";
@@ -398,23 +990,23 @@
 		203D61CF2303F88C0003F549 /* GSHQRCodeScanningVC */ = {
 			isa = PBXGroup;
 			children = (
-				203D61D02303F88C0003F549 /* GSHQRCodeScanningVC.m */,
 				203D61D12303F88C0003F549 /* GSHQRCodeScanningVC.xib */,
 				203D61D22303F88C0003F549 /* GSHQRCodeScanningVC.h */,
+				203D61D02303F88C0003F549 /* GSHQRCodeScanningVC.m */,
 			);
 			path = GSHQRCodeScanningVC;
 			sourceTree = "<group>";
 		};
-		203D61D52303F95C0003F549 /* PickerView */ = {
+		203D61D52303F95C0003F549 /* GSHPickerViewManager */ = {
 			isa = PBXGroup;
 			children = (
 				203D61D62303F95C0003F549 /* GSHPickerViewManager.h */,
+				203D621D2303F95C0003F549 /* GSHPickerViewManager.m */,
 				203D61D72303F95C0003F549 /* DatePicker */,
 				203D62152303F95C0003F549 /* AddressPicker */,
 				203D621A2303F95C0003F549 /* ZJPickerView */,
-				203D621D2303F95C0003F549 /* GSHPickerViewManager.m */,
 			);
-			path = PickerView;
+			path = GSHPickerViewManager;
 			sourceTree = "<group>";
 		};
 		203D61D72303F95C0003F549 /* DatePicker */ = {
@@ -513,6 +1105,8 @@
 		203D621A2303F95C0003F549 /* ZJPickerView */ = {
 			isa = PBXGroup;
 			children = (
+				203D627D230547860003F549 /* GSHPickerView.h */,
+				203D627C230547860003F549 /* GSHPickerView.m */,
 				203D621B2303F95C0003F549 /* ZJPickerView.m */,
 				203D621C2303F95C0003F549 /* ZJPickerView.h */,
 			);
@@ -526,6 +1120,695 @@
 				203D62412303FA310003F549 /* GSHWeChatStyleActionSheetView.m */,
 			);
 			path = GSHWeChatStyleActionSheetView;
+			sourceTree = "<group>";
+		};
+		203D6248230540CA0003F549 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				203D624A230540CA0003F549 /* GSHDeviceSB.storyboard */,
+				203D6249230540CA0003F549 /* GSHDeviceListVC.h */,
+				203D624B230540CA0003F549 /* GSHDeviceListVC.m */,
+				203D624C230540CA0003F549 /* AddDevice */,
+				203D627F230547F70003F549 /* DoubleControlSwitch */,
+				203D6315230551D00003F549 /* Sensor */,
+				203D63EB230556430003F549 /* AloneDevice */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		203D624C230540CA0003F549 /* AddDevice */ = {
+			isa = PBXGroup;
+			children = (
+				203D6262230540CA0003F549 /* GSHAddDeviceSB.storyboard */,
+				203D6252230540CA0003F549 /* GSHDeviceCategoryListVC.h */,
+				203D6265230540CA0003F549 /* GSHDeviceCategoryListVC.m */,
+				203D6254230540CA0003F549 /* GSHDeviceCategoryGuideVC.h */,
+				203D624E230540CA0003F549 /* GSHDeviceCategoryGuideVC.m */,
+				203D6264230540CA0003F549 /* GSHDeviceSearchVC.h */,
+				203D624F230540CA0003F549 /* GSHDeviceSearchVC.m */,
+				203D6266230540CA0003F549 /* GSHDeviceChooseVC.h */,
+				203D6251230540CA0003F549 /* GSHDeviceChooseVC.m */,
+				203D6263230540CA0003F549 /* GSHDeviceEditVC.h */,
+				203D6250230540CA0003F549 /* GSHDeviceEditVC.m */,
+				203D6256230540CA0003F549 /* Yingshi */,
+			);
+			path = AddDevice;
+			sourceTree = "<group>";
+		};
+		203D6256230540CA0003F549 /* Yingshi */ = {
+			isa = PBXGroup;
+			children = (
+				203D625C230540CA0003F549 /* GSHAddYingShiDeviceSB.storyboard */,
+				203D6257230540CA0003F549 /* GSHYingShiDeviceTypeSeleVC.h */,
+				203D625F230540CA0003F549 /* GSHYingShiDeviceTypeSeleVC.m */,
+				203D625A230540CA0003F549 /* GSHYingShiDeviceCategoryVC.h */,
+				203D6260230540CA0003F549 /* GSHYingShiDeviceCategoryVC.m */,
+				203D6258230540CA0003F549 /* GSHYingShiDeviceDetailVC.h */,
+				203D625E230540CA0003F549 /* GSHYingShiDeviceDetailVC.m */,
+				203D624D230540CA0003F549 /* GSHConfigWifiInfoVC.h */,
+				203D6255230540CA0003F549 /* GSHConfigWifiInfoVC.m */,
+				203D625B230540CA0003F549 /* GSHYingShiDeviceWifiLinkVC.h */,
+				203D6261230540CA0003F549 /* GSHYingShiDeviceWifiLinkVC.m */,
+				203D6259230540CA0003F549 /* GSHYingShiDeviceEditVC.h */,
+				203D625D230540CA0003F549 /* GSHYingShiDeviceEditVC.m */,
+			);
+			path = Yingshi;
+			sourceTree = "<group>";
+		};
+		203D6278230541090003F549 /* GSHBlueRoundButton */ = {
+			isa = PBXGroup;
+			children = (
+				203D6279230541090003F549 /* GSHBlueRoundButton.m */,
+				203D627A230541090003F549 /* GSHBlueRoundButton.h */,
+			);
+			path = GSHBlueRoundButton;
+			sourceTree = "<group>";
+		};
+		203D627F230547F70003F549 /* DoubleControlSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				203D6285230547F70003F549 /* GSHDoubleControlSwitchSB.storyboard */,
+				203D6283230547F70003F549 /* GSHDeviceRelevanceVC.h */,
+				203D6280230547F70003F549 /* GSHDeviceRelevanceVC.m */,
+				203D6282230547F70003F549 /* GSHChooseSwitchListVC.h */,
+				203D6286230547F70003F549 /* GSHChooseSwitchListVC.m */,
+				203D6284230547F70003F549 /* GSHChooseSwitchItemVC.h */,
+				203D6281230547F70003F549 /* GSHChooseSwitchItemVC.m */,
+			);
+			path = DoubleControlSwitch;
+			sourceTree = "<group>";
+		};
+		203D628B230549910003F549 /* GSHChooseRoomVC */ = {
+			isa = PBXGroup;
+			children = (
+				203D628C230549910003F549 /* GSHChooseRoomVC.xib */,
+				203D628D230549910003F549 /* GSHChooseRoomVC.h */,
+				203D628E230549910003F549 /* GSHChooseRoomVC.m */,
+				203D630B23054DA90003F549 /* GSHChooseRoomCell.xib */,
+				203D630923054DA80003F549 /* GSHChooseRoomCell.h */,
+				203D630A23054DA80003F549 /* GSHChooseRoomCell.m */,
+			);
+			path = GSHChooseRoomVC;
+			sourceTree = "<group>";
+		};
+		203D6291230549EB0003F549 /* GW */ = {
+			isa = PBXGroup;
+			children = (
+				203D6296230549EB0003F549 /* AddGWSB.storyboard */,
+				203D6293230549EB0003F549 /* GSHAddGWGuideVC.h */,
+				203D6297230549EB0003F549 /* GSHAddGWGuideVC.m */,
+				203D6292230549EB0003F549 /* GSHAddGWSearchVC.h */,
+				203D6298230549EB0003F549 /* GSHAddGWSearchVC.m */,
+				203D629A230549EB0003F549 /* GSHAddGWListVC.h */,
+				203D6295230549EB0003F549 /* GSHAddGWListVC.m */,
+				203D6299230549EB0003F549 /* GSHAddGWDetailVC.h */,
+				203D6294230549EB0003F549 /* GSHAddGWDetailVC.m */,
+				203D652923055C990003F549 /* GSHGWSettingVC.h */,
+				203D652623055C990003F549 /* GSHGWSettingVC.m */,
+				203D651C23055C610003F549 /* GateWayUpdateModule */,
+			);
+			path = GW;
+			sourceTree = "<group>";
+		};
+		203D62A023054C3D0003F549 /* AnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				203D62A123054C3D0003F549 /* VoiceWave */,
+				203D62A423054C3D0003F549 /* GSHSpreadAnimationView */,
+				203D62A723054C3D0003F549 /* GSHScanAnimationView */,
+			);
+			path = AnimationView;
+			sourceTree = "<group>";
+		};
+		203D62A123054C3D0003F549 /* VoiceWave */ = {
+			isa = PBXGroup;
+			children = (
+				203D62A223054C3D0003F549 /* YSCNewVoiceWaveView.m */,
+				203D62A323054C3D0003F549 /* YSCNewVoiceWaveView.h */,
+			);
+			path = VoiceWave;
+			sourceTree = "<group>";
+		};
+		203D62A423054C3D0003F549 /* GSHSpreadAnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				203D62A523054C3D0003F549 /* GSHSpreadAnimationView.h */,
+				203D62A623054C3D0003F549 /* GSHSpreadAnimationView.m */,
+			);
+			path = GSHSpreadAnimationView;
+			sourceTree = "<group>";
+		};
+		203D62A723054C3D0003F549 /* GSHScanAnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				203D62A823054C3D0003F549 /* GSHScanAnimationView.m */,
+				203D62A923054C3D0003F549 /* GSHScanAnimationView.h */,
+			);
+			path = GSHScanAnimationView;
+			sourceTree = "<group>";
+		};
+		203D630523054D5C0003F549 /* JKCircleView */ = {
+			isa = PBXGroup;
+			children = (
+				203D630623054D5C0003F549 /* JKCircleView.h */,
+				203D630723054D5C0003F549 /* JKCircleView.m */,
+			);
+			path = JKCircleView;
+			sourceTree = "<group>";
+		};
+		203D630F2305519C0003F549 /* TZMProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				203D63112305519C0003F549 /* TZMProgressBar.xib */,
+				203D63102305519C0003F549 /* TZMProgressBar.h */,
+				203D63122305519C0003F549 /* TZMProgressBar.m */,
+			);
+			path = TZMProgressBar;
+			sourceTree = "<group>";
+		};
+		203D6315230551D00003F549 /* Sensor */ = {
+			isa = PBXGroup;
+			children = (
+				203D6316230551D00003F549 /* SensorListSB.storyboard */,
+				203D631A230551D00003F549 /* GSHSensorListVC.h */,
+				203D6318230551D00003F549 /* GSHSensorListVC.m */,
+				203D6319230551D00003F549 /* GSHSensorDetailVC.h */,
+				203D6317230551D00003F549 /* GSHSensorDetailVC.m */,
+				203D654B2306935F0003F549 /* HomeSensorTopView */,
+				203D63312305534E0003F549 /* TZMBrokenLineGraphView */,
+			);
+			path = Sensor;
+			sourceTree = "<group>";
+		};
+		203D631E230551EE0003F549 /* PopoverView */ = {
+			isa = PBXGroup;
+			children = (
+				203D631F230551EE0003F549 /* PopoverView.h */,
+				203D6323230551EE0003F549 /* PopoverView.m */,
+				203D6320230551EE0003F549 /* PopoverViewCell.h */,
+				203D6324230551EE0003F549 /* PopoverViewCell.m */,
+				203D6321230551EE0003F549 /* PopoverAction.h */,
+				203D6322230551EE0003F549 /* PopoverAction.m */,
+			);
+			path = PopoverView;
+			sourceTree = "<group>";
+		};
+		203D63312305534E0003F549 /* TZMBrokenLineGraphView */ = {
+			isa = PBXGroup;
+			children = (
+				203D63322305534E0003F549 /* TZMBrokenLineGraphView.h */,
+				203D63332305534E0003F549 /* TZMBrokenLineGraphView.m */,
+			);
+			path = TZMBrokenLineGraphView;
+			sourceTree = "<group>";
+		};
+		203D6335230554E40003F549 /* GSHWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				203D6336230554E40003F549 /* GSHWebViewController.h */,
+				203D6337230554E40003F549 /* GSHWebViewController.m */,
+			);
+			path = GSHWebViewController;
+			sourceTree = "<group>";
+		};
+		203D63EB230556430003F549 /* AloneDevice */ = {
+			isa = PBXGroup;
+			children = (
+				203D6444230556430003F549 /* GSHDeviceVC.h */,
+				203D641A230556430003F549 /* GSHDeviceVC.m */,
+				203D644D230556430003F549 /* DeviceSetVC */,
+				203D6404230556430003F549 /* DeviceHandleVC */,
+				203D641B230556430003F549 /* GSHScenePanel */,
+				203D6425230556430003F549 /* InfraredController */,
+				203D643D230556430003F549 /* AirConditionerTransverter */,
+				203D6445230556430003F549 /* SensorGroup */,
+				203D63EC230556430003F549 /* YingShiCamera */,
+			);
+			path = AloneDevice;
+			sourceTree = "<group>";
+		};
+		203D63EC230556430003F549 /* YingShiCamera */ = {
+			isa = PBXGroup;
+			children = (
+				203D63F1230556430003F549 /* GSHYingshiCameraToolSB.storyboard */,
+				203D6402230556430003F549 /* GSHYingShiCameraVC.h */,
+				203D63F7230556430003F549 /* GSHYingShiCameraVC.m */,
+				203D6403230556430003F549 /* GSHYingShiPlayerVC.h */,
+				203D63F6230556430003F549 /* GSHYingShiPlayerVC.m */,
+				203D63ED230556430003F549 /* GSHYingShiGaoJingListVC.h */,
+				203D63F9230556430003F549 /* GSHYingShiGaoJingListVC.m */,
+				203D6401230556430003F549 /* GSHGaoJingDetailVC.h */,
+				203D63F8230556430003F549 /* GSHGaoJingDetailVC.m */,
+				203D63F2230556430003F549 /* GSHYingShiVideoListVC.h */,
+				203D63FB230556430003F549 /* GSHYingShiVideoListVC.m */,
+				203D63F3230556430003F549 /* GSHYingShiVideoVC.h */,
+				203D63FA230556430003F549 /* GSHYingShiVideoVC.m */,
+				203D6400230556430003F549 /* GSHYingShiLiXianVC.h */,
+				203D63F4230556430003F549 /* GSHYingShiLiXianVC.m */,
+				203D63FD230556430003F549 /* GSHYingshiSettingVC.h */,
+				203D63EF230556430003F549 /* GSHYingshiSettingVC.m */,
+				203D63FE230556430003F549 /* GSHHuoDongJianCeSettingVC.h */,
+				203D63EE230556430003F549 /* GSHHuoDongJianCeSettingVC.m */,
+				203D63F0230556430003F549 /* GSHYingShiAlarmSoundModeVC.h */,
+				203D63FC230556430003F549 /* GSHYingShiAlarmSoundModeVC.m */,
+				203D63F5230556430003F549 /* GSHYingshiDoorbellVC.h */,
+				203D63FF230556430003F549 /* GSHYingshiDoorbellVC.m */,
+			);
+			path = YingShiCamera;
+			sourceTree = "<group>";
+		};
+		203D6404230556430003F549 /* DeviceHandleVC */ = {
+			isa = PBXGroup;
+			children = (
+				203D6408230556430003F549 /* GSHUnderFloorHeatSB.storyboard */,
+				203D640C230556430003F549 /* GSHUnderFloorHeatVC.h */,
+				203D6419230556430003F549 /* GSHUnderFloorHeatVC.m */,
+				203D640A230556430003F549 /* GSHDeviceSocketHandleSB.storyboard */,
+				203D6415230556430003F549 /* GSHDeviceSocketHandleVC.h */,
+				203D6409230556430003F549 /* GSHDeviceSocketHandleVC.m */,
+				203D640E230556430003F549 /* GSHTwoWayCurtainHandleSB.storyboard */,
+				203D6417230556430003F549 /* GSHTwoWayCurtainHandleVC.h */,
+				203D640B230556430003F549 /* GSHTwoWayCurtainHandleVC.m */,
+				203D6414230556430003F549 /* GSHAirConditionerHandleSB.storyboard */,
+				203D640D230556430003F549 /* GSHAirConditionerHandleVC.h */,
+				203D6418230556430003F549 /* GSHAirConditionerHandleVC.m */,
+				203D6413230556430003F549 /* GSHNewWindHandleSB.storyboard */,
+				203D6407230556430003F549 /* GSHNewWindHandleVC.h */,
+				203D640F230556430003F549 /* GSHNewWindHandleVC.m */,
+				203D6416230556430003F549 /* GSHThreeWaySwitchHandleSB.storyboard */,
+				203D6411230556430003F549 /* GSHThreeWaySwitchHandleVC.h */,
+				203D6405230556430003F549 /* GSHThreeWaySwitchHandleVC.m */,
+			);
+			path = DeviceHandleVC;
+			sourceTree = "<group>";
+		};
+		203D641B230556430003F549 /* GSHScenePanel */ = {
+			isa = PBXGroup;
+			children = (
+				203D6420230556430003F549 /* GSHScenePanelHandleSB.storyboard */,
+				203D6422230556430003F549 /* GSHScenePanelHandleVC.h */,
+				203D641C230556430003F549 /* GSHScenePanelHandleVC.m */,
+				203D641F230556430003F549 /* GSHChooseSceneListSB.storyboard */,
+				203D641D230556430003F549 /* GSHChooseSceneListVC.h */,
+				203D6421230556430003F549 /* GSHChooseSceneListVC.m */,
+				203D6423230556430003F549 /* GSHScenePanelEditSB.storyboard */,
+				203D641E230556430003F549 /* GSHScenePanelEditVC.h */,
+				203D6424230556430003F549 /* GSHScenePanelEditVC.m */,
+			);
+			path = GSHScenePanel;
+			sourceTree = "<group>";
+		};
+		203D6425230556430003F549 /* InfraredController */ = {
+			isa = PBXGroup;
+			children = (
+				203D6439230556430003F549 /* GSHInfraredControllerSB.storyboard */,
+				203D643C230556430003F549 /* GSHInfraredControllerInfoVC.h */,
+				203D6433230556430003F549 /* GSHInfraredControllerInfoVC.m */,
+				203D643B230556430003F549 /* GSHInfraredControllerTypeVC.h */,
+				203D6431230556430003F549 /* GSHInfraredControllerTypeVC.m */,
+				203D6432230556430003F549 /* GSHInfraredControllerBrandVC.h */,
+				203D643A230556430003F549 /* GSHInfraredControllerBrandVC.m */,
+				203D6438230556430003F549 /* GSHInfraredControllerVerifyVC.h */,
+				203D642F230556430003F549 /* GSHInfraredControllerVerifyVC.m */,
+				203D6430230556430003F549 /* GSHInfraredControllerEditVC.h */,
+				203D6437230556430003F549 /* GSHInfraredControllerEditVC.m */,
+				203D6434230556430003F549 /* GSHInfraredVirtualDeviceSB.storyboard */,
+				203D6426230556430003F549 /* GSHInfraredVirtualDeviceAirConditionerVC.h */,
+				203D6436230556430003F549 /* GSHInfraredVirtualDeviceAirConditionerVC.m */,
+				203D642E230556430003F549 /* GSHInfraredVirtualDeviceTVVC.h */,
+				203D6435230556430003F549 /* GSHInfraredVirtualDeviceTVVC.m */,
+				203D6427230556430003F549 /* TVSeleAlert */,
+			);
+			path = InfraredController;
+			sourceTree = "<group>";
+		};
+		203D6427230556430003F549 /* TVSeleAlert */ = {
+			isa = PBXGroup;
+			children = (
+				203D642A230556430003F549 /* GSHTVSeleAlertVC.xib */,
+				203D6429230556430003F549 /* GSHTVSeleAlertVC.h */,
+				203D642D230556430003F549 /* GSHTVSeleAlertVC.m */,
+				203D642B230556430003F549 /* GSHTVSeleAlertCell.xib */,
+				203D642C230556430003F549 /* GSHTVSeleAlertCell.h */,
+				203D6428230556430003F549 /* GSHTVSeleAlertCell.m */,
+			);
+			path = TVSeleAlert;
+			sourceTree = "<group>";
+		};
+		203D643D230556430003F549 /* AirConditionerTransverter */ = {
+			isa = PBXGroup;
+			children = (
+				203D6441230556430003F549 /* GSHAirConditionerTransverterSB.storyboard */,
+				203D6440230556430003F549 /* GSHAirConditionerTransverterEditVC.h */,
+				203D643E230556430003F549 /* GSHAirConditionerTransverterEditVC.m */,
+				203D6443230556430003F549 /* GSHAirConditionerTransverterVC.h */,
+				203D643F230556430003F549 /* GSHAirConditionerTransverterVC.m */,
+			);
+			path = AirConditionerTransverter;
+			sourceTree = "<group>";
+		};
+		203D6445230556430003F549 /* SensorGroup */ = {
+			isa = PBXGroup;
+			children = (
+				203D6447230556430003F549 /* GSHSensorGroupSB.storyboard */,
+				203D644A230556430003F549 /* GSHSensorGroupVC.h */,
+				203D6448230556430003F549 /* GSHSensorGroupVC.m */,
+				203D6446230556430003F549 /* GSHSensorGroupTypeVC.h */,
+				203D644B230556430003F549 /* GSHSensorGroupTypeVC.m */,
+				203D644C230556430003F549 /* GSHSensorGroupEditVC.h */,
+				203D6449230556430003F549 /* GSHSensorGroupEditVC.m */,
+			);
+			path = SensorGroup;
+			sourceTree = "<group>";
+		};
+		203D644D230556430003F549 /* DeviceSetVC */ = {
+			isa = PBXGroup;
+			children = (
+				203D6452230556430003F549 /* GSHAlarmSensorSetSB.storyboard */,
+				203D644E230556430003F549 /* GSHAlarmSensorSetVC.h */,
+				203D6457230556430003F549 /* GSHAlarmSensorSetVC.m */,
+				203D644F230556430003F549 /* GSHHumitureSensorSetSB.storyboard */,
+				203D6454230556430003F549 /* GSHHumitureSensorSetVC.h */,
+				203D645B230556430003F549 /* GSHHumitureSensorSetVC.m */,
+				203D6450230556430003F549 /* GSHGateMagnetismSetSB.storyboard */,
+				203D6456230556430003F549 /* GSHGateMagnetismSetVC.h */,
+				203D645C230556430003F549 /* GSHGateMagnetismSetVC.m */,
+				203D6455230556430003F549 /* GSHAirBoxSensorSetSB.storyboard */,
+				203D6453230556430003F549 /* GSHAirBoxSensorSetVC.h */,
+				203D6458230556430003F549 /* GSHAirBoxSensorSetVC.m */,
+				203D645A230556430003F549 /* GSHAirConditionerSetSB.storyboard */,
+				203D6451230556430003F549 /* GSHAirConditionerSetVC.h */,
+				203D6459230556430003F549 /* GSHAirConditionerSetVC.m */,
+			);
+			path = DeviceSetVC;
+			sourceTree = "<group>";
+		};
+		203D649D23055B3A0003F549 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				203D649E23055B3A0003F549 /* ViewModel */,
+				203D64A123055B3A0003F549 /* Controller */,
+				203D64B623055B3A0003F549 /* View */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		203D649E23055B3A0003F549 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				203D64A023055B3A0003F549 /* GSHAddSceneVCViewModel.h */,
+				203D649F23055B3A0003F549 /* GSHAddSceneVCViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		203D64A123055B3A0003F549 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				203D64AE23055B3A0003F549 /* GSHSceneVC.h */,
+				203D64B523055B3A0003F549 /* GSHSceneVC.m */,
+				203D64A823055B3A0003F549 /* GSHAddSceneVC.h */,
+				203D64AF23055B3A0003F549 /* GSHAddSceneVC.m */,
+				203D64B023055B3A0003F549 /* GSHSceneBackgroundVC.h */,
+				203D64A723055B3A0003F549 /* GSHSceneBackgroundVC.m */,
+				203D64B123055B3A0003F549 /* GSHSceneEditVC.h */,
+				203D64A923055B3A0003F549 /* GSHSceneEditVC.m */,
+				203D64A223055B3A0003F549 /* voiceKeyWord */,
+				203D64B223055B3A0003F549 /* performAction */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		203D64A223055B3A0003F549 /* voiceKeyWord */ = {
+			isa = PBXGroup;
+			children = (
+				203D64A323055B3A0003F549 /* GSHVoiceKeyWordVC.m */,
+				203D64A423055B3A0003F549 /* GSHCollectionTagsFlowLayout.h */,
+				203D64A523055B3A0003F549 /* GSHVoiceKeyWordVC.h */,
+				203D64A623055B3A0003F549 /* GSHCollectionTagsFlowLayout.m */,
+			);
+			path = voiceKeyWord;
+			sourceTree = "<group>";
+		};
+		203D64B223055B3A0003F549 /* performAction */ = {
+			isa = PBXGroup;
+			children = (
+				203D64B323055B3A0003F549 /* GSHChooseDeviceVC.m */,
+				203D64B423055B3A0003F549 /* GSHChooseDeviceVC.h */,
+			);
+			path = performAction;
+			sourceTree = "<group>";
+		};
+		203D64B623055B3A0003F549 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				203D64C023055B3B0003F549 /* GSHSceneCell.xib */,
+				203D64C823055B3B0003F549 /* GSHSceneCell.h */,
+				203D64BE23055B3A0003F549 /* GSHSceneCell.m */,
+				203D64B723055B3A0003F549 /* voiceKeyWord */,
+				203D64C123055B3B0003F549 /* addScene */,
+				203D64CA23055B3B0003F549 /* performAction */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		203D64B723055B3A0003F549 /* voiceKeyWord */ = {
+			isa = PBXGroup;
+			children = (
+				203D64B823055B3A0003F549 /* GSHVoiceKeyWordTagCell.h */,
+				203D64BC23055B3A0003F549 /* GSHVoiceKeyWordTagCell.m */,
+				203D64BB23055B3A0003F549 /* GSHVoiceKeyWordHeadView.xib */,
+				203D64BA23055B3A0003F549 /* GSHVoiceKeyWordHeadView.h */,
+				203D64B923055B3A0003F549 /* GSHVoiceKeyWordHeadView.m */,
+			);
+			path = voiceKeyWord;
+			sourceTree = "<group>";
+		};
+		203D64C123055B3B0003F549 /* addScene */ = {
+			isa = PBXGroup;
+			children = (
+				203D64C323055B3B0003F549 /* GSHAddSceneCell.xib */,
+				203D64C423055B3B0003F549 /* GSHAddSceneCell.h */,
+				203D64C623055B3B0003F549 /* GSHAddSceneCell.m */,
+				203D64C723055B3B0003F549 /* GSHSceneBackCell.xib */,
+				203D64C523055B3B0003F549 /* GSHSceneBackCell.h */,
+				203D64C223055B3B0003F549 /* GSHSceneBackCell.m */,
+			);
+			path = addScene;
+			sourceTree = "<group>";
+		};
+		203D64CA23055B3B0003F549 /* performAction */ = {
+			isa = PBXGroup;
+			children = (
+				203D64CC23055B3B0003F549 /* GSHChooseDeviceListCell.xib */,
+				203D64CB23055B3B0003F549 /* GSHChooseDeviceListCell.h */,
+				203D64CD23055B3B0003F549 /* GSHChooseDeviceListCell.m */,
+			);
+			path = performAction;
+			sourceTree = "<group>";
+		};
+		203D64CE23055B3B0003F549 /* Automate */ = {
+			isa = PBXGroup;
+			children = (
+				203D64CF23055B3B0003F549 /* ViewModel */,
+				203D64D223055B3B0003F549 /* Controller */,
+				203D64EB23055B3B0003F549 /* View */,
+			);
+			path = Automate;
+			sourceTree = "<group>";
+		};
+		203D64CF23055B3B0003F549 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				203D64D023055B3B0003F549 /* GSHAddAutoVCViewModel.m */,
+				203D64D123055B3B0003F549 /* GSHAddAutoVCViewModel.h */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		203D64D223055B3B0003F549 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				203D64D423055B3B0003F549 /* GSHAutomateVC.h */,
+				203D64D323055B3B0003F549 /* GSHAutomateVC.m */,
+				203D64D523055B3B0003F549 /* addAutomation */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		203D64D523055B3B0003F549 /* addAutomation */ = {
+			isa = PBXGroup;
+			children = (
+				203D64DB23055B3B0003F549 /* GSHAddAutomationSB.storyboard */,
+				203D64E623055B3B0003F549 /* GSHAddAutoVC.h */,
+				203D64DA23055B3B0003F549 /* GSHAddAutoVC.m */,
+				203D64D623055B3B0003F549 /* GSHChooseRepeatCountVC.h */,
+				203D64E523055B3B0003F549 /* GSHChooseRepeatCountVC.m */,
+				203D64E723055B3B0003F549 /* GSHAddTriggerConditionVC.h */,
+				203D64D923055B3B0003F549 /* GSHAddTriggerConditionVC.m */,
+				203D64DC23055B3B0003F549 /* GSHAutoTimeSetVC.h */,
+				203D64EA23055B3B0003F549 /* GSHAutoTimeSetVC.m */,
+				203D64E923055B3B0003F549 /* GSHAutoEffectTimeSetVC.h */,
+				203D64D723055B3B0003F549 /* GSHAutoEffectTimeSetVC.m */,
+				203D64D823055B3B0003F549 /* GSHAddAutoChooseDeviceVC.h */,
+				203D64E823055B3B0003F549 /* GSHAddAutoChooseDeviceVC.m */,
+				203D64DD23055B3B0003F549 /* Action */,
+			);
+			path = addAutomation;
+			sourceTree = "<group>";
+		};
+		203D64DD23055B3B0003F549 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				203D64E423055B3B0003F549 /* GSHAddAutoAction.storyboard */,
+				203D64DE23055B3B0003F549 /* GSHAutoAddAutoVC.h */,
+				203D64E323055B3B0003F549 /* GSHAutoAddAutoVC.m */,
+				203D64E023055B3B0003F549 /* GSHAutoAddActionVC.h */,
+				203D64E123055B3B0003F549 /* GSHAutoAddActionVC.m */,
+				203D64E223055B3B0003F549 /* GSHAutoAddActionSceneVC.h */,
+				203D64DF23055B3B0003F549 /* GSHAutoAddActionSceneVC.m */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		203D64EB23055B3B0003F549 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				203D6554230694380003F549 /* GSHAutomateCell */,
+				203D651523055C060003F549 /* MGSwipeTableCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		203D651523055C060003F549 /* MGSwipeTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				203D651823055C060003F549 /* MGSwipeTableCell.h */,
+				203D651623055C060003F549 /* MGSwipeTableCell.m */,
+				203D651723055C060003F549 /* MGSwipeButton.h */,
+				203D651923055C060003F549 /* MGSwipeButton.m */,
+			);
+			path = MGSwipeTableCell;
+			sourceTree = "<group>";
+		};
+		203D651C23055C610003F549 /* GateWayUpdateModule */ = {
+			isa = PBXGroup;
+			children = (
+				203D651E23055C610003F549 /* GSHGateWaySettingSB.storyboard */,
+				203D651F23055C610003F549 /* GSHGateWayUpdateVC.h */,
+				203D652023055C610003F549 /* GSHGateWayUpdateVC.m */,
+				203D652123055C610003F549 /* GSHGatewayCopyRestoreVC.h */,
+				203D651D23055C610003F549 /* GSHGatewayCopyRestoreVC.m */,
+			);
+			path = GateWayUpdateModule;
+			sourceTree = "<group>";
+		};
+		203D652523055C990003F549 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				203D652823055C990003F549 /* GSHSettingSB.storyboard */,
+				203D652723055C990003F549 /* GSHAboutVC.h */,
+				203D652A23055C990003F549 /* GSHAboutVC.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		203D652E23055CD50003F549 /* YeeBadgeView */ = {
+			isa = PBXGroup;
+			children = (
+				203D653323055CD50003F549 /* YeeBadgeViewHeader.h */,
+				203D653623055CD50003F549 /* YeeBadgeProtocol.h */,
+				203D652F23055CD50003F549 /* YeeBadgeView.h */,
+				203D653423055CD50003F549 /* YeeBadgeView.m */,
+				203D653023055CD50003F549 /* UITabBarItem+YeeBadge.h */,
+				203D653523055CD50003F549 /* UITabBarItem+YeeBadge.m */,
+				203D653123055CD50003F549 /* UIBarButtonItem+YeeBadge.h */,
+				203D653723055CD50003F549 /* UIBarButtonItem+YeeBadge.m */,
+				203D653223055CD50003F549 /* UIView+YeeBadge.h */,
+				203D653823055CD50003F549 /* UIView+YeeBadge.m */,
+			);
+			path = YeeBadgeView;
+			sourceTree = "<group>";
+		};
+		203D653D23055CF20003F549 /* DropDownMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				203D653E23055CF20003F549 /* GSHDropDownMenuView.h */,
+				203D654123055CF20003F549 /* GSHDropDownMenuView.m */,
+				203D654023055CF20003F549 /* GSHDropDownMenuCell.h */,
+				203D654223055CF20003F549 /* GSHDropDownMenuCell.m */,
+				203D653F23055CF20003F549 /* GSHDropDownMenuCell.xib */,
+			);
+			path = DropDownMenuView;
+			sourceTree = "<group>";
+		};
+		203D654623064BA20003F549 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				202607BD230A3CB6000FA259 /* ZJScrollPageView */,
+				203D61B52303F6600003F549 /* SVProgressHUD */,
+				203D62A023054C3D0003F549 /* AnimationView */,
+				203D630F2305519C0003F549 /* TZMProgressBar */,
+				203D630523054D5C0003F549 /* JKCircleView */,
+				203D652E23055CD50003F549 /* YeeBadgeView */,
+				203D653D23055CF20003F549 /* DropDownMenuView */,
+				203D6278230541090003F549 /* GSHBlueRoundButton */,
+				203D631E230551EE0003F549 /* PopoverView */,
+				203D61B12303F4560003F549 /* JXMovableCellTableView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		203D654723064C020003F549 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				203D628B230549910003F549 /* GSHChooseRoomVC */,
+				203D6335230554E40003F549 /* GSHWebViewController */,
+				203D61C92303F7060003F549 /* GSHInputTextVC */,
+				203D61CF2303F88C0003F549 /* GSHQRCodeScanningVC */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		203D654923068DA00003F549 /* GSHAlertManager */ = {
+			isa = PBXGroup;
+			children = (
+				203D623F2303FA310003F549 /* GSHWeChatStyleActionSheetView */,
+				203D61C62303F6A70003F549 /* GSHAlertManager.h */,
+				203D61C72303F6A70003F549 /* GSHAlertManager.m */,
+			);
+			path = GSHAlertManager;
+			sourceTree = "<group>";
+		};
+		203D654A23068DD50003F549 /* TZMVoIPPushManager */ = {
+			isa = PBXGroup;
+			children = (
+				203D630223054D0B0003F549 /* TZMVoIPPushManager.h */,
+				203D630323054D0C0003F549 /* TZMVoIPPushManager.m */,
+			);
+			path = TZMVoIPPushManager;
+			sourceTree = "<group>";
+		};
+		203D654B2306935F0003F549 /* HomeSensorTopView */ = {
+			isa = PBXGroup;
+			children = (
+				203D654C2306935F0003F549 /* GSHSensorParametersView.m */,
+				203D654D2306935F0003F549 /* GSHHomeSensorTopView.m */,
+				203D654E2306935F0003F549 /* GSHHomeSensorTopView.xib */,
+				203D654F2306935F0003F549 /* GSHSensorParametersView.h */,
+				203D65502306935F0003F549 /* GSHHomeSensorTopView.h */,
+			);
+			path = HomeSensorTopView;
+			sourceTree = "<group>";
+		};
+		203D6554230694380003F549 /* GSHAutomateCell */ = {
+			isa = PBXGroup;
+			children = (
+				203D64ED23055B3B0003F549 /* GSHAutomateCell.xib */,
+				203D64EE23055B3B0003F549 /* GSHAutomateCell.h */,
+				203D64EC23055B3B0003F549 /* GSHAutomateCell.m */,
+			);
+			path = GSHAutomateCell;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
@@ -585,7 +1868,6 @@
 				6003F595195388D20070C39A /* GSHUIKit-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* GSHUIKit-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -680,7 +1962,7 @@
 				ORGANIZATIONNAME = zuomingTang;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = 768E5U378E;
+						DevelopmentTeam = MBWHE63DB2;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -712,17 +1994,63 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				203D650F23055B3B0003F549 /* GSHAddAutoAction.storyboard in Resources */,
+				203D6493230556430003F549 /* GSHHumitureSensorSetSB.storyboard in Resources */,
+				203D65532306935F0003F549 /* GSHHomeSensorTopView.xib in Resources */,
+				203D647A230556430003F549 /* GSHScenePanelHandleSB.storyboard in Resources */,
+				203D6480230556430003F549 /* GSHTVSeleAlertCell.xib in Resources */,
+				203D6494230556430003F549 /* GSHGateMagnetismSetSB.storyboard in Resources */,
+				202607A7230A39F1000FA259 /* GSHDefensePlanSB.storyboard in Resources */,
+				203D654323055CF20003F549 /* GSHDropDownMenuCell.xib in Resources */,
+				203D6489230556430003F549 /* GSHInfraredControllerSB.storyboard in Resources */,
+				203D646D230556430003F549 /* GSHDeviceSocketHandleSB.storyboard in Resources */,
+				203D6479230556430003F549 /* GSHChooseSceneListSB.storyboard in Resources */,
+				203D6268230540CA0003F549 /* GSHDeviceSB.storyboard in Resources */,
+				203D6474230556430003F549 /* GSHThreeWaySwitchHandleSB.storyboard in Resources */,
 				203D61D42303F88C0003F549 /* GSHQRCodeScanningVC.xib in Resources */,
+				203D648F230556430003F549 /* GSHSensorGroupSB.storyboard in Resources */,
+				203D6472230556430003F549 /* GSHNewWindHandleSB.storyboard in Resources */,
+				203D650323055B3B0003F549 /* GSHSceneBackCell.xib in Resources */,
 				203D62332303F95D0003F549 /* PGDatePicker.bundle in Resources */,
+				203D647F230556430003F549 /* GSHTVSeleAlertVC.xib in Resources */,
+				203D64FA23055B3B0003F549 /* GSHVoiceKeyWordHeadView.xib in Resources */,
 				203D61CE2303F7060003F549 /* GSHInputTextVC.xib in Resources */,
+				202607BC230A3C21000FA259 /* GSHMessageSB.storyboard in Resources */,
 				203D61A12303F2B00003F549 /* GSHFamilySB.storyboard in Resources */,
+				203D652323055C610003F549 /* GSHGateWaySettingSB.storyboard in Resources */,
+				203D646F230556430003F549 /* GSHTwoWayCurtainHandleSB.storyboard in Resources */,
 				203D61A62303F2B00003F549 /* GSHMemberManagerSB.storyboard in Resources */,
+				203D645F230556430003F549 /* GSHYingshiCameraToolSB.storyboard in Resources */,
+				203D652C23055C990003F549 /* GSHSettingSB.storyboard in Resources */,
+				203D6275230540CA0003F549 /* GSHAddDeviceSB.storyboard in Resources */,
+				203D650B23055B3B0003F549 /* GSHAddAutomationSB.storyboard in Resources */,
+				203D647C230556430003F549 /* GSHScenePanelEditSB.storyboard in Resources */,
+				203D64FF23055B3B0003F549 /* GSHSceneCell.xib in Resources */,
 				203D62472303FF610003F549 /* Main.storyboard in Resources */,
+				203D6496230556430003F549 /* GSHAirBoxSensorSetSB.storyboard in Resources */,
+				203D629D230549EB0003F549 /* AddGWSB.storyboard in Resources */,
+				203D650123055B3B0003F549 /* GSHAddSceneCell.xib in Resources */,
+				203D630D23054DA90003F549 /* GSHChooseRoomCell.xib in Resources */,
+				203D6473230556430003F549 /* GSHAirConditionerHandleSB.storyboard in Resources */,
 				203D61C42303F6600003F549 /* SVProgressHUD.bundle in Resources */,
+				203D63132305519D0003F549 /* TZMProgressBar.xib in Resources */,
+				203D6485230556430003F549 /* GSHInfraredVirtualDeviceSB.storyboard in Resources */,
+				202607A2230A39F1000FA259 /* GSHDefenseSB.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				203D651423055B3B0003F549 /* GSHAutomateCell.xib in Resources */,
+				203D650423055B3B0003F549 /* GSHChooseDeviceListCell.xib in Resources */,
 				203D61AD2303F2B00003F549 /* GSHRoomManagerSB.storyboard in Resources */,
+				203D646B230556430003F549 /* GSHUnderFloorHeatSB.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				203D6495230556430003F549 /* GSHAlarmSensorSetSB.storyboard in Resources */,
+				203D631B230551D00003F549 /* SensorListSB.storyboard in Resources */,
+				203D626F230540CA0003F549 /* GSHAddYingShiDeviceSB.storyboard in Resources */,
+				202607BA230A3C21000FA259 /* GSHMessageCell.xib in Resources */,
+				203D649A230556430003F549 /* GSHAirConditionerSetSB.storyboard in Resources */,
+				203D628F230549910003F549 /* GSHChooseRoomVC.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				203D648D230556430003F549 /* GSHAirConditionerTransverterSB.storyboard in Resources */,
+				203D6289230547F70003F549 /* GSHDoubleControlSwitchSB.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -814,64 +2142,200 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				203D64FB23055B3B0003F549 /* GSHVoiceKeyWordTagCell.m in Sources */,
 				203D62382303F95D0003F549 /* PGDatePickManagerHeaderView.m in Sources */,
+				203D650523055B3B0003F549 /* GSHChooseDeviceListCell.m in Sources */,
 				203D62322303F95D0003F549 /* PGDatePicker+DateHour.m in Sources */,
+				202607A3230A39F1000FA259 /* GSHDefensePlanChooseVC.m in Sources */,
+				202607A9230A39F1000FA259 /* GSHDefenseAddPlanVC.m in Sources */,
+				203D6470230556430003F549 /* GSHNewWindHandleVC.m in Sources */,
+				203D6492230556430003F549 /* GSHSensorGroupTypeVC.m in Sources */,
+				203D6477230556430003F549 /* GSHDeviceVC.m in Sources */,
+				203D6325230551EE0003F549 /* PopoverAction.m in Sources */,
+				203D64F323055B3B0003F549 /* GSHSceneEditVC.m in Sources */,
+				203D645E230556430003F549 /* GSHYingshiSettingVC.m in Sources */,
 				203D623C2303F95D0003F549 /* AddressPickerView.m in Sources */,
+				203D6497230556430003F549 /* GSHAlarmSensorSetVC.m in Sources */,
 				203D61D32303F88C0003F549 /* GSHQRCodeScanningVC.m in Sources */,
+				203D64F723055B3B0003F549 /* GSHChooseDeviceVC.m in Sources */,
+				203D650A23055B3B0003F549 /* GSHAddAutoVC.m in Sources */,
+				203D626A230540CA0003F549 /* GSHDeviceCategoryGuideVC.m in Sources */,
+				203D650823055B3B0003F549 /* GSHAutoEffectTimeSetVC.m in Sources */,
 				203D623E2303F95D0003F549 /* GSHPickerViewManager.m in Sources */,
+				203D6478230556430003F549 /* GSHScenePanelHandleVC.m in Sources */,
 				203D623A2303F95D0003F549 /* PGDatePicker+DateHourMinuteSecond.m in Sources */,
+				202607B8230A3C21000FA259 /* GSHMessageNotiSetVC.m in Sources */,
+				203D647D230556430003F549 /* GSHScenePanelEditVC.m in Sources */,
+				203D6491230556430003F549 /* GSHSensorGroupEditVC.m in Sources */,
 				203D622A2303F95C0003F549 /* PGDatePicker+Time.m in Sources */,
+				203D6475230556430003F549 /* GSHAirConditionerHandleVC.m in Sources */,
+				203D651223055B3B0003F549 /* GSHAutoTimeSetVC.m in Sources */,
+				203D6271230540CA0003F549 /* GSHYingShiDeviceDetailVC.m in Sources */,
+				203D652223055C610003F549 /* GSHGatewayCopyRestoreVC.m in Sources */,
+				203D650623055B3B0003F549 /* GSHAddAutoVCViewModel.m in Sources */,
+				203D64F023055B3B0003F549 /* GSHVoiceKeyWordVC.m in Sources */,
+				203D63342305534F0003F549 /* TZMBrokenLineGraphView.m in Sources */,
+				203D6499230556430003F549 /* GSHAirConditionerSetVC.m in Sources */,
+				203D6462230556430003F549 /* GSHYingShiCameraVC.m in Sources */,
 				203D62252303F95C0003F549 /* UIColor+PGHex.m in Sources */,
 				203D62392303F95D0003F549 /* PGDatePicker+Year.m in Sources */,
+				203D652B23055C990003F549 /* GSHGWSettingVC.m in Sources */,
+				203D6273230540CA0003F549 /* GSHYingShiDeviceCategoryVC.m in Sources */,
+				203D629E230549EB0003F549 /* GSHAddGWGuideVC.m in Sources */,
+				202607D6230A3CB6000FA259 /* ZJScrollPageView.m in Sources */,
+				203D6327230551EE0003F549 /* PopoverViewCell.m in Sources */,
+				203D6476230556430003F549 /* GSHUnderFloorHeatVC.m in Sources */,
+				203D6490230556430003F549 /* GSHSensorGroupVC.m in Sources */,
+				203D64EF23055B3B0003F549 /* GSHAddSceneVCViewModel.m in Sources */,
+				202607B7230A3C21000FA259 /* GSHMessageVC.m in Sources */,
 				203D622C2303F95C0003F549 /* PGDatePicker+Logic.m in Sources */,
+				203D626C230540CA0003F549 /* GSHDeviceEditVC.m in Sources */,
+				203D647B230556430003F549 /* GSHChooseSceneListVC.m in Sources */,
+				203D62AA23054C3D0003F549 /* YSCNewVoiceWaveView.m in Sources */,
+				202607A4230A39F1000FA259 /* GSHDefenseMeteChooseVC.m in Sources */,
 				203D62342303F95D0003F549 /* PGDatePicker+TimeAndSecond.m in Sources */,
 				203D61AE2303F2B00003F549 /* GSHRoomRankVC.m in Sources */,
+				203D628A230547F70003F549 /* GSHChooseSwitchListVC.m in Sources */,
+				203D630823054D5D0003F549 /* JKCircleView.m in Sources */,
 				6003F59E195388D20070C39A /* GSHAppDelegate.m in Sources */,
 				203D61A52303F2B00003F549 /* GSHFamilyMemberAuthorityVC.m in Sources */,
 				203D622F2303F95D0003F549 /* PGDatePicker+MonthDayHourMinuteSecond.m in Sources */,
+				203D650223055B3B0003F549 /* GSHAddSceneCell.m in Sources */,
+				203D652D23055C990003F549 /* GSHAboutVC.m in Sources */,
+				203D6482230556430003F549 /* GSHInfraredControllerVerifyVC.m in Sources */,
+				202607BB230A3C21000FA259 /* GSHMessageCell.m in Sources */,
+				203D6469230556430003F549 /* GSHThreeWaySwitchHandleVC.m in Sources */,
+				202607AA230A39F1000FA259 /* GSHDefensePlanTimeSetVC.m in Sources */,
+				203D6276230540CA0003F549 /* GSHDeviceCategoryListVC.m in Sources */,
+				202607D1230A3CB6000FA259 /* UIViewController+ZJScrollPageController.m in Sources */,
+				202607A6230A39F1000FA259 /* GSHDefenseAddVC.m in Sources */,
+				203D6463230556430003F549 /* GSHGaoJingDetailVC.m in Sources */,
 				203D622D2303F95C0003F549 /* NSBundle+PGDatePicker.m in Sources */,
+				203D6461230556430003F549 /* GSHYingShiPlayerVC.m in Sources */,
+				203D651B23055C060003F549 /* MGSwipeButton.m in Sources */,
 				203D62292303F95C0003F549 /* NSCalendar+PGCurrent.m in Sources */,
+				203D6460230556430003F549 /* GSHYingShiLiXianVC.m in Sources */,
+				203D629C230549EB0003F549 /* GSHAddGWListVC.m in Sources */,
+				203D6487230556430003F549 /* GSHInfraredVirtualDeviceAirConditionerVC.m in Sources */,
+				203D63142305519D0003F549 /* TZMProgressBar.m in Sources */,
+				203D654423055CF20003F549 /* GSHDropDownMenuView.m in Sources */,
 				203D62222303F95C0003F549 /* PGDatePicker+Date.m in Sources */,
+				203D649B230556430003F549 /* GSHHumitureSensorSetVC.m in Sources */,
+				203D651323055B3B0003F549 /* GSHAutomateCell.m in Sources */,
+				202607D5230A3CB6000FA259 /* ZJScrollSegmentView.m in Sources */,
+				202607A5230A39F1000FA259 /* GSHDefenseListVC.m in Sources */,
 				203D61CD2303F7060003F549 /* GSHInputTextVC.m in Sources */,
+				203D650E23055B3B0003F549 /* GSHAutoAddAutoVC.m in Sources */,
+				203D652423055C610003F549 /* GSHGateWayUpdateVC.m in Sources */,
+				203D650C23055B3B0003F549 /* GSHAutoAddActionSceneVC.m in Sources */,
+				203D64FD23055B3B0003F549 /* GSHSceneCell.m in Sources */,
 				203D61A22303F2B00003F549 /* GSHFamilyMemberFloorAuthorityVC.m in Sources */,
+				203D65512306935F0003F549 /* GSHSensorParametersView.m in Sources */,
+				203D64F623055B3B0003F549 /* GSHAddSceneVC.m in Sources */,
 				203D61AB2303F2B00003F549 /* GSHOptionRoomBgVC.m in Sources */,
+				203D6338230554E40003F549 /* GSHWebViewController.m in Sources */,
 				203D62262303F95C0003F549 /* PGDatePickerView.m in Sources */,
+				203D6486230556430003F549 /* GSHInfraredVirtualDeviceTVVC.m in Sources */,
+				203D653A23055CD50003F549 /* UITabBarItem+YeeBadge.m in Sources */,
+				203D650D23055B3B0003F549 /* GSHAutoAddActionVC.m in Sources */,
+				203D646E230556430003F549 /* GSHTwoWayCurtainHandleVC.m in Sources */,
 				203D62282303F95C0003F549 /* PGDatePicker+YearAndMonth.m in Sources */,
+				203D630423054D0C0003F549 /* TZMVoIPPushManager.m in Sources */,
+				203D6274230540CA0003F549 /* GSHYingShiDeviceWifiLinkVC.m in Sources */,
 				203D61A82303F2B00003F549 /* GSHCreateFamilyVC.m in Sources */,
+				203D626D230540CA0003F549 /* GSHDeviceChooseVC.m in Sources */,
+				203D629B230549EB0003F549 /* GSHAddGWDetailVC.m in Sources */,
 				203D621E2303F95C0003F549 /* PGPickerColumnCell.m in Sources */,
+				203D626E230540CA0003F549 /* GSHConfigWifiInfoVC.m in Sources */,
+				203D6467230556430003F549 /* GSHYingShiAlarmSoundModeVC.m in Sources */,
+				203D645D230556430003F549 /* GSHHuoDongJianCeSettingVC.m in Sources */,
+				203D6468230556430003F549 /* GSHYingshiDoorbellVC.m in Sources */,
+				203D64F223055B3B0003F549 /* GSHSceneBackgroundVC.m in Sources */,
+				203D62AB23054C3D0003F549 /* GSHSpreadAnimationView.m in Sources */,
+				203D6288230547F70003F549 /* GSHChooseSwitchItemVC.m in Sources */,
+				203D6466230556430003F549 /* GSHYingShiVideoListVC.m in Sources */,
 				203D62312303F95D0003F549 /* NSDate+PGCategory.m in Sources */,
 				6003F5A7195388D20070C39A /* GSHViewController.m in Sources */,
 				203D62422303FA310003F549 /* GSHWeChatStyleActionSheetView.m in Sources */,
+				203D6488230556430003F549 /* GSHInfraredControllerEditVC.m in Sources */,
+				203D651023055B3B0003F549 /* GSHChooseRepeatCountVC.m in Sources */,
+				202607D3230A3CB6000FA259 /* ZJCollectionView.m in Sources */,
 				203D61A42303F2B00003F549 /* GSHFamilyMemberListVC.m in Sources */,
+				203D650923055B3B0003F549 /* GSHAddTriggerConditionVC.m in Sources */,
+				203D627B230541090003F549 /* GSHBlueRoundButton.m in Sources */,
+				202607D0230A3CB6000FA259 /* ZJTitleView.m in Sources */,
+				202607B9230A3C21000FA259 /* GSHMessageTableViewVC.m in Sources */,
+				203D630C23054DA90003F549 /* GSHChooseRoomCell.m in Sources */,
 				203D623B2303F95D0003F549 /* AddressTableView.m in Sources */,
+				203D631D230551D00003F549 /* GSHSensorListVC.m in Sources */,
 				203D61C82303F6A70003F549 /* GSHAlertManager.m in Sources */,
 				203D61AA2303F2B00003F549 /* GSHFloorEditVC.m in Sources */,
+				203D646C230556430003F549 /* GSHDeviceSocketHandleVC.m in Sources */,
+				203D65522306935F0003F549 /* GSHHomeSensorTopView.m in Sources */,
+				203D648C230556430003F549 /* GSHAirConditionerTransverterVC.m in Sources */,
 				203D621F2303F95C0003F549 /* PGPickerColumnView.m in Sources */,
 				203D62372303F95D0003F549 /* PGDatePicker+MonthDay.m in Sources */,
 				203D62362303F95D0003F549 /* PGDatePicker+Common.m in Sources */,
+				203D62AC23054C3D0003F549 /* GSHScanAnimationView.m in Sources */,
 				203D62212303F95C0003F549 /* PGPickerTableView.m in Sources */,
 				203D62302303F95D0003F549 /* PGDatePicker+DateHourMinute.m in Sources */,
+				203D64F923055B3B0003F549 /* GSHVoiceKeyWordHeadView.m in Sources */,
 				203D61C32303F6600003F549 /* SVIndefiniteAnimatedView.m in Sources */,
 				203D61AC2303F2B00003F549 /* GSHRoomEditVC.m in Sources */,
 				203D61B42303F4560003F549 /* JXMovableCellTableView.m in Sources */,
+				202607D2230A3CB6000FA259 /* ZJContentView.m in Sources */,
 				203D61C12303F6600003F549 /* SVProgressAnimatedView.m in Sources */,
 				203D62232303F95C0003F549 /* PGDatePicker+MinuteAndSecond.m in Sources */,
 				203D61C02303F6600003F549 /* SVRadialGradientLayer.m in Sources */,
+				203D653B23055CD50003F549 /* UIBarButtonItem+YeeBadge.m in Sources */,
+				203D6464230556430003F549 /* GSHYingShiGaoJingListVC.m in Sources */,
+				203D650023055B3B0003F549 /* GSHSceneBackCell.m in Sources */,
 				203D61A72303F2B00003F549 /* GSHFamilyMemberRoomAuthorityVC.m in Sources */,
+				202607A8230A39F1000FA259 /* GSHDefensePlanListVC.m in Sources */,
+				203D6481230556430003F549 /* GSHTVSeleAlertVC.m in Sources */,
 				203D62352303F95D0003F549 /* PGDatePicker+DateAndTime.m in Sources */,
+				203D6498230556430003F549 /* GSHAirBoxSensorSetVC.m in Sources */,
 				203D61A92303F2B00003F549 /* GSHRoomManagerVC.m in Sources */,
 				203D622B2303F95C0003F549 /* PGDatePickManager.m in Sources */,
+				203D6484230556430003F549 /* GSHInfraredControllerInfoVC.m in Sources */,
+				203D654523055CF20003F549 /* GSHDropDownMenuCell.m in Sources */,
 				203D62202303F95C0003F549 /* PGPickerView.m in Sources */,
 				203D62272303F95C0003F549 /* PGDatePicker+MonthDayHour.m in Sources */,
 				203D61A32303F2B00003F549 /* GSHFamilyMemberInfoVC.m in Sources */,
+				203D6272230540CA0003F549 /* GSHYingShiDeviceTypeSeleVC.m in Sources */,
+				203D648A230556430003F549 /* GSHInfraredControllerBrandVC.m in Sources */,
+				203D649C230556430003F549 /* GSHGateMagnetismSetVC.m in Sources */,
+				203D651A23055C060003F549 /* MGSwipeTableCell.m in Sources */,
+				203D647E230556430003F549 /* GSHTVSeleAlertCell.m in Sources */,
+				203D6270230540CA0003F549 /* GSHYingShiDeviceEditVC.m in Sources */,
 				203D619E2303F2B00003F549 /* GSHFamilyTransferVC.m in Sources */,
+				203D651123055B3B0003F549 /* GSHAddAutoChooseDeviceVC.m in Sources */,
 				203D61C22303F6600003F549 /* SVProgressHUD.m in Sources */,
+				203D6483230556430003F549 /* GSHInfraredControllerTypeVC.m in Sources */,
 				203D62242303F95C0003F549 /* PGDatePicker.m in Sources */,
+				203D6326230551EE0003F549 /* PopoverView.m in Sources */,
 				203D622E2303F95C0003F549 /* PGDatePicker+MonthDayHourMinute.m in Sources */,
+				203D6269230540CA0003F549 /* GSHDeviceListVC.m in Sources */,
 				203D61A02303F2B00003F549 /* GSHFamilyListVC.m in Sources */,
+				203D653923055CD50003F549 /* YeeBadgeView.m in Sources */,
+				203D629F230549EB0003F549 /* GSHAddGWSearchVC.m in Sources */,
+				203D627E230547860003F549 /* GSHPickerView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				203D623D2303F95D0003F549 /* ZJPickerView.m in Sources */,
+				203D64F823055B3B0003F549 /* GSHSceneVC.m in Sources */,
+				202607D4230A3CB6000FA259 /* ZJSegmentStyle.m in Sources */,
+				203D631C230551D00003F549 /* GSHSensorDetailVC.m in Sources */,
 				203D619F2303F2B00003F549 /* GSHFamilyManagerVC.m in Sources */,
+				203D648B230556430003F549 /* GSHAirConditionerTransverterEditVC.m in Sources */,
+				203D6287230547F70003F549 /* GSHDeviceRelevanceVC.m in Sources */,
+				203D653C23055CD50003F549 /* UIView+YeeBadge.m in Sources */,
+				203D650723055B3B0003F549 /* GSHAutomateVC.m in Sources */,
+				202607A1230A39F1000FA259 /* GSHDefenseMessageVC.m in Sources */,
+				203D64F123055B3B0003F549 /* GSHCollectionTagsFlowLayout.m in Sources */,
+				202607CF230A3CB6000FA259 /* UIView+ZJFrame.m in Sources */,
+				203D6465230556430003F549 /* GSHYingShiVideoVC.m in Sources */,
+				203D626B230540CA0003F549 /* GSHDeviceSearchVC.m in Sources */,
+				203D6290230549910003F549 /* GSHChooseRoomVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1035,11 +2499,12 @@
 			baseConfigurationReference = 5B3F2FB223350C68E8F0DC9E /* Pods-GSHUIKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 768E5U378E;
+				DEVELOPMENT_TEAM = MBWHE63DB2;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GSHUIKit/GSHUIKit-Prefix.pch";
 				INFOPLIST_FILE = "GSHUIKit/GSHUIKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1053,11 +2518,12 @@
 			baseConfigurationReference = F59949251C3AB21C9CCE2B57 /* Pods-GSHUIKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 768E5U378E;
+				DEVELOPMENT_TEAM = MBWHE63DB2;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GSHUIKit/GSHUIKit-Prefix.pch";
 				INFOPLIST_FILE = "GSHUIKit/GSHUIKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

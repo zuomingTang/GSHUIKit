@@ -10,8 +10,6 @@ target 'GSHUIKit_Example' do
   pod 'AFNetworking', '3.1.0'                 #网络请求工具
   pod 'SDWebImage/GIF', '4.2.2'               #图片加载工具
   pod 'IQKeyboardManager', '5.0.8'         #解决键盘弹出遮挡的第三方
-  pod 'OpenShare', '0.0.1'                 #第三方分享，登录
-  pod 'RealReachability', '~> 1.3.0' #监测网络
   pod 'MarqueeLabel', '3.0.1' #一个强大的跑马灯效果的 Label实现
   pod 'MJNIndexView', '0.0.1' #一个给TableView用的侧边索引控件
   pod 'LGAlertView'
@@ -20,5 +18,5 @@ target 'GSHUIKit_Example' do
   
   pod 'TZMOpenLib', :git => 'https://github.com/zuomingTang/TZMOpenLib.git', :tag => '0.4.7'
   pod 'TZMExternalPackagLib', :git => 'https://github.com/zuomingTang/TZMExternalPackagLib.git', :tag => '0.1.4.1'
-  pod 'GSHOpenSDK', :git => 'https://github.com/zuomingTang/GSHOpenSDK.git', :tag => '0.2.32'
+  pod 'GSHOpenSDK', :git => 'https://github.com/zuomingTang/GSHOpenSDK.git', :tag => '0.2.37'
 end
